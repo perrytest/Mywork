@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202AF0A71F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.h in Headers */ = {isa = PBXBuildFile; fileRef = 202AF0A51F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.h */; };
+		202AF0A81F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.m in Sources */ = {isa = PBXBuildFile; fileRef = 202AF0A61F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.m */; };
+		202AF0AA1F20CC8E00850F69 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202AF0A91F20CC8E00850F69 /* AdSupport.framework */; };
+		20CA52231F21AD9C00A0AF5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CA52221F21AD9C00A0AF5B /* Foundation.framework */; };
+		20E631391F1DF74700E56D31 /* WXFriendSee.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20E631381F1DF74700E56D31 /* WXFriendSee.mm */; };
+		20E631451F1DF81300E56D31 /* PYFriendPapa.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E631431F1DF81300E56D31 /* PYFriendPapa.h */; };
+		20E631461F1DF81300E56D31 /* PYFriendPapa.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E631441F1DF81300E56D31 /* PYFriendPapa.m */; };
+		20E631491F1DF86500E56D31 /* NSString+WXPYNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E631471F1DF86500E56D31 /* NSString+WXPYNull.h */; };
+		20E6314A1F1DF86500E56D31 /* NSString+WXPYNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E631481F1DF86500E56D31 /* NSString+WXPYNull.m */; };
+		20E6314C1F1E02EC00E56D31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E6314B1F1E02EC00E56D31 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		202AF0A51F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHKLHLSJDLUWNKXK.h; sourceTree = "<group>"; };
+		202AF0A61F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHKLHLSJDLUWNKXK.m; sourceTree = "<group>"; };
+		202AF0A91F20CC8E00850F69 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		20CA52221F21AD9C00A0AF5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20E6312B1F1DF74700E56D31 /* WXFriendSee.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WXFriendSee.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E631331F1DF74700E56D31 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		20E631341F1DF74700E56D31 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		20E631361F1DF74700E56D31 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		20E631371F1DF74700E56D31 /* WXFriendSee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXFriendSee-Prefix.pch"; sourceTree = "<group>"; };
+		20E631381F1DF74700E56D31 /* WXFriendSee.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WXFriendSee.mm; sourceTree = "<group>"; };
+		20E6313D1F1DF74700E56D31 /* WXFriendSee.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WXFriendSee.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/WXFriendSee.plist; sourceTree = "<group>"; };
+		20E631431F1DF81300E56D31 /* PYFriendPapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYFriendPapa.h; sourceTree = "<group>"; };
+		20E631441F1DF81300E56D31 /* PYFriendPapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYFriendPapa.m; sourceTree = "<group>"; };
+		20E631471F1DF86500E56D31 /* NSString+WXPYNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WXPYNull.h"; sourceTree = "<group>"; };
+		20E631481F1DF86500E56D31 /* NSString+WXPYNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WXPYNull.m"; sourceTree = "<group>"; };
+		20E6314B1F1E02EC00E56D31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E631271F1DF74700E56D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CA52231F21AD9C00A0AF5B /* Foundation.framework in Frameworks */,
+				202AF0AA1F20CC8E00850F69 /* AdSupport.framework in Frameworks */,
+				20E6314C1F1E02EC00E56D31 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E631211F1DF74600E56D31 = {
+			isa = PBXGroup;
+			children = (
+				20E631301F1DF74700E56D31 /* WXFriendSee */,
+				20E6312D1F1DF74700E56D31 /* Frameworks */,
+				20E6312C1F1DF74700E56D31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20E6312C1F1DF74700E56D31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E6312B1F1DF74700E56D31 /* WXFriendSee.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E6312D1F1DF74700E56D31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20CA52221F21AD9C00A0AF5B /* Foundation.framework */,
+				202AF0A91F20CC8E00850F69 /* AdSupport.framework */,
+				20E6314B1F1E02EC00E56D31 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20E631301F1DF74700E56D31 /* WXFriendSee */ = {
+			isa = PBXGroup;
+			children = (
+				20E631381F1DF74700E56D31 /* WXFriendSee.mm */,
+				20E631431F1DF81300E56D31 /* PYFriendPapa.h */,
+				20E631441F1DF81300E56D31 /* PYFriendPapa.m */,
+				20E631471F1DF86500E56D31 /* NSString+WXPYNull.h */,
+				20E631481F1DF86500E56D31 /* NSString+WXPYNull.m */,
+				202AF0A51F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.h */,
+				202AF0A61F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.m */,
+				20E631311F1DF74700E56D31 /* Package */,
+				20E631351F1DF74700E56D31 /* Supporting Files */,
+			);
+			path = WXFriendSee;
+			sourceTree = "<group>";
+		};
+		20E631311F1DF74700E56D31 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				20E631321F1DF74700E56D31 /* DEBIAN */,
+				20E6313A1F1DF74700E56D31 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		20E631321F1DF74700E56D31 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				20E631331F1DF74700E56D31 /* control.txt */,
+				20E631341F1DF74700E56D31 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		20E631351F1DF74700E56D31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20E631361F1DF74700E56D31 /* PackageVersion.plist */,
+				20E631371F1DF74700E56D31 /* WXFriendSee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20E6313A1F1DF74700E56D31 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				20E6313B1F1DF74700E56D31 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		20E6313B1F1DF74700E56D31 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				20E6313C1F1DF74700E56D31 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		20E6313C1F1DF74700E56D31 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				20E6313D1F1DF74700E56D31 /* WXFriendSee.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20E631281F1DF74700E56D31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E631451F1DF81300E56D31 /* PYFriendPapa.h in Headers */,
+				202AF0A71F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.h in Headers */,
+				20E631491F1DF86500E56D31 /* NSString+WXPYNull.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20E6312A1F1DF74700E56D31 /* WXFriendSee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E631401F1DF74700E56D31 /* Build configuration list for PBXNativeTarget "WXFriendSee" */;
+			buildPhases = (
+				20E631261F1DF74700E56D31 /* Sources */,
+				20E631271F1DF74700E56D31 /* Frameworks */,
+				20E631281F1DF74700E56D31 /* Headers */,
+				20E631291F1DF74700E56D31 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXFriendSee;
+			productName = WXFriendSee;
+			productReference = 20E6312B1F1DF74700E56D31 /* WXFriendSee.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20E631221F1DF74600E56D31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					20E6312A1F1DF74700E56D31 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20E631251F1DF74600E56D31 /* Build configuration list for PBXProject "WXFriendSee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20E631211F1DF74600E56D31;
+			productRefGroup = 20E6312C1F1DF74700E56D31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E6312A1F1DF74700E56D31 /* WXFriendSee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20E631291F1DF74700E56D31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20E631261F1DF74700E56D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E631461F1DF81300E56D31 /* PYFriendPapa.m in Sources */,
+				202AF0A81F20BEBD00850F69 /* HHKLHLSJDLUWNKXK.m in Sources */,
+				20E631391F1DF74700E56D31 /* WXFriendSee.mm in Sources */,
+				20E6314A1F1DF86500E56D31 /* NSString+WXPYNull.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20E6313E1F1DF74700E56D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		20E6313F1F1DF74700E56D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		20E631411F1DF74700E56D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXFriendSee/WXFriendSee-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		20E631421F1DF74700E56D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXFriendSee/WXFriendSee-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E631251F1DF74600E56D31 /* Build configuration list for PBXProject "WXFriendSee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E6313E1F1DF74700E56D31 /* Debug */,
+				20E6313F1F1DF74700E56D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E631401F1DF74700E56D31 /* Build configuration list for PBXNativeTarget "WXFriendSee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E631411F1DF74700E56D31 /* Debug */,
+				20E631421F1DF74700E56D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20E631221F1DF74600E56D31 /* Project object */;
+}
