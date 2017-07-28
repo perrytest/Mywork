@@ -41,126 +41,23 @@
 
 @end
 
-@class AGDBackgroundRunningMgr;
-CHDeclareClass(AGDBackgroundRunningMgr);
 
-CHOptimizedMethod1(self, BOOL, AGDBackgroundRunningMgr, checkBackgroundRefreshEnable, BOOL, flag)
+CHDeclareClass(NSObject);
+CHOptimizedMethod0(self, id, NSObject, init)
 {
-    BOOL result = CHSuper1(AGDBackgroundRunningMgr, checkBackgroundRefreshEnable, NO);
-//    NSLog(@"====================checkBackgroundRefreshEnable:%@", flag?@"YES":@"NO");
-    NSLog(@"====================checkBackgroundRefreshEnable:%@==%@", flag?@"YES":@"NO", result?@"YES":@"NO");
-    return YES;
+    NSLog(@"=====================init:%@", [self class]);
+    return CHSuper0(NSObject, init);
 }
-
-CHOptimizedMethod1(self, BOOL, AGDBackgroundRunningMgr, location_checkAlwaysLocationEnable, BOOL, flag)
-{
-    BOOL result = CHSuper1(AGDBackgroundRunningMgr, location_checkAlwaysLocationEnable, flag);
-    NSLog(@"====================location_checkAlwaysLocationEnable:%@==%@", flag?@"YES":@"NO", result?@"YES":@"NO");
-    return result;
-}
-
-CHOptimizedMethod0(self, BOOL, AGDBackgroundRunningMgr, enable)
-{
-    BOOL result = CHSuper0(AGDBackgroundRunningMgr, enable);
-    NSLog(@"====================enable:%@", result?@"YES":@"NO");
-    return YES;
-}
-
-CHOptimizedMethod1(self, void, AGDBackgroundRunningMgr, switchToMode, long long, flag)
-{
-//    BOOL result = CHSuper1(AGDBackgroundRunningMgr, location_checkAlwaysLocationEnable, flag);
-    NSLog(@"====================switchToMode");
-//    return result;
-}
-
-CHOptimizedClassMethod0(self, id, AGDBackgroundRunningMgr, ModeDescriptions)
-{
-    NSLog(@"====================AGDBackgroundRunningMgr ModeDescriptions");
-    return @[@"1", @"2", @"3"];
-}
-
-CHOptimizedClassMethod0(self, id, AGDBackgroundRunningMgr, ModeTitles)
-{
-    NSLog(@"====================AGDBackgroundRunningMgr ModeTitles");
-    return @[@"1", @"2", @"3"];
-}
-
-
-
-@class MUFirstTime;
-CHDeclareClass(MUFirstTime);
-
-CHOptimizedClassMethod1(self, BOOL, MUFirstTime, isFirstTimeInThisInstall, NSString *, key)
-{
-    //    BOOL result = CHSuper1(AGDBackgroundRunningMgr, location_checkAlwaysLocationEnable, flag);
-    NSLog(@"====================isFirstTimeInThisInstall:%@", key);
-    return NO;
-}
-
-
-@class AGDVerify;
-CHDeclareClass(AGDVerify);
-CHOptimizedClassMethod0(self, void, AGDVerify, startVerify)
-{
-    NSLog(@"====================startVerify");
-}
-
-CHOptimizedClassMethod0(self, void, AGDVerify, verifyTask)
-{
-    NSLog(@"====================verifyTask");
-}
-
-
-CHOptimizedClassMethod3(self, void, AGDVerify, verify, BOOL, arg1, success, id, arg2, failed, id, arg3)
-{
-    NSLog(@"====================verify:%@", arg1?@"YES":@"NO");
-}
-
-CHOptimizedMethod0(self, void, AGDVerify, showAlert)
-{
-    NSLog(@"====================showAlert");
-}
-
-
-
-
-
-@class AGDDeviceServer;
-CHDeclareClass(AGDDeviceServer);
-CHOptimizedClassMethod0(self, id, AGDDeviceServer, sharedInstance)
-{
-    NSLog(@"====================AGDDeviceServer sharedInstance");
-    return CHSuper0(AGDDeviceServer, sharedInstance);
-}
-
-CHOptimizedMethod1(self, void, AGDDeviceServer, checkAndInstall, double, arg1)
-{
-    NSLog(@"====================checkAndInstall");
-}
-
-
-CHOptimizedMethod1(self, void, AGDDeviceServer, startServiceWithCompleted, id, arg1)
-{
-    NSLog(@"====================startServiceWithCompleted");
-}
-
-CHOptimizedMethod0(self, void, AGDDeviceServer, check)
-{
-    NSLog(@"====================AGDDeviceServer check");
-}
-
-
-
 
 #pragma mark - BundleId
 
 CHDeclareClass(NSBundle);
 CHOptimizedMethod1(self, id, NSBundle, objectForInfoDictionaryKey, NSString *, key)
 {
-//    NSLog(@"====================read for:%@", key);
+    NSLog(@"====================read for:%@", key);
     if ([key isEqualToString:@"CFBundleIdentifier"]) {
         NSString *value = CHSuper1(NSBundle, objectForInfoDictionaryKey, key);
-        NSLog(@"====================read for:%@==value:%@", key, value);
+//        NSLog(@"====================read for:%@==value:%@", key, value);
         return value;
         return @"com.tencent.xin";
     }
@@ -182,17 +79,39 @@ CHOptimizedMethod1(self, id, NSDictionary, objectForKey, id, key)
 {
     if (CHIsClass(self, NSDictionary)) {
         if ([key isKindOfClass:[NSString class]]) {
-//            NSLog(@"====================read for:%@", key);
+            NSLog(@"====================read for:%@", key);
             if ([key isEqualToString:@"CFBundleIdentifier"]) {
                 NSString *value = CHSuper1(NSDictionary, objectForKey, key);
                 NSLog(@"====================read for:%@==value:%@", key, value);
                 return value;
                 return @"com.tencent.xin";
+            } else if ([key isEqualToString:@"TeamIdentifier"]) {
+                NSString *value = CHSuper1(NSDictionary, objectForKey, key);
+                NSLog(@"====================read for:%@==value:%@", key, value);
+                return value;
+            } else if ([key isEqualToString:@"mpteamidentifier"]) {
+                NSString *value = CHSuper1(NSDictionary, objectForKey, key);
+                NSLog(@"====================read for:%@==value:%@", key, value);
+                return value;
             }
         }
     }
     return CHSuper1(NSDictionary, objectForKey, key);
 }
+
+
+#pragma mark - MicroMessengerAppDelegate
+
+@class MicroMessengerAppDelegate;
+CHDeclareClass(MicroMessengerAppDelegate);
+
+CHOptimizedMethod2(self, BOOL, MicroMessengerAppDelegate, application, id, app, didFinishLaunchingWithOptions, id, arg2)
+{
+    NSLog(@"=====================didFinishLaunchingWithOptions");
+    BOOL result = CHSuper2(MicroMessengerAppDelegate, application, app, didFinishLaunchingWithOptions, arg2);
+    return result;
+}
+
 
 
 //CHOptimizedMethod(2, self, BOOL, ClassToHook, arg1, NSString*, value1, arg2, BOOL, value2) // hook method (with 2 arguments and a return value)
@@ -223,6 +142,7 @@ static void Hallsdafjdlkjlfopoewkljklasdjfldjksalj(CFNotificationCenterRef cente
 
 static void Hallsdafjdlkjlfdsafddsdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
+    NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
 //    [NSUserDefaults standardUserDefaults] setInteger:<#(NSInteger)#> forKey:<#(nonnull NSString *)#>
 //    PYFriendPapa *check = [PYFriendPapa shareInstance];
 //    [check addFriend];
@@ -247,34 +167,16 @@ CHConstructor // code block that runs immediately upon load
 		CFNotificationCenterRef darwin = CFNotificationCenterGetDarwinNotifyCenter();
 		CFNotificationCenterAddObserver(darwin, NULL, ExternallyPostedNotification, CFSTR("perry.WXFriendSee.eventname"), NULL, CFNotificationSuspensionBehaviorCoalesce);
 		
-		// CHLoadClass(ClassToHook); // load class (that is "available now")
+        CHLoadLateClass(NSObject);
+        CHLoadLateClass(MicroMessengerAppDelegate);
         CHLoadLateClass(NSBundle);  // load class (that will be "available later")
         CHLoadLateClass(NSDictionary);
-        CHLoadLateClass(AGDBackgroundRunningMgr);
-        CHLoadLateClass(MUFirstTime);
-        CHLoadLateClass(AGDVerify);
-        CHLoadLateClass(AGDDeviceServer);
 		
+        CHHook0(NSObject, init);
+        CHHook2(MicroMessengerAppDelegate, application, didFinishLaunchingWithOptions);
         CHHook(1, NSBundle, objectForInfoDictionaryKey); // register hook
 		CHHook(0, NSBundle, bundleIdentifier); // register hook
 		CHHook(1, NSDictionary, objectForKey); // register hook
-        CHHook(1, AGDBackgroundRunningMgr, checkBackgroundRefreshEnable);
-        CHHook(1, AGDBackgroundRunningMgr, location_checkAlwaysLocationEnable);
-        CHHook(0, AGDBackgroundRunningMgr, enable);
-        CHHook(1, AGDBackgroundRunningMgr, switchToMode);
-        CHClassHook0(AGDBackgroundRunningMgr, ModeDescriptions);
-        CHClassHook0(AGDBackgroundRunningMgr, ModeTitles);
-        CHClassHook1(MUFirstTime, isFirstTimeInThisInstall);
-        
-        CHClassHook0(AGDVerify, startVerify);
-        CHClassHook0(AGDVerify, verifyTask);
-        CHClassHook3(AGDVerify, verify, success, failed);
-        CHHook(0, AGDVerify, showAlert);
-        
-        CHClassHook0(AGDDeviceServer, sharedInstance);
-        CHHook(1, AGDDeviceServer, checkAndInstall);
-        CHHook(1, AGDDeviceServer, startServiceWithCompleted);
-        CHHook(0, AGDDeviceServer, check);
         
         
 	}
