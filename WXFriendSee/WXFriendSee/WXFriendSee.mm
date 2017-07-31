@@ -42,6 +42,37 @@
 @end
 
 
+@class UET;
+CHDeclareClass(UET);
+CHOptimizedMethod1(self, void, UET, XrwvnkS, id, arg1)
+{
+    NSLog(@"###################XrwvnkS%@[%@]", arg1, [arg1 class]);
+    CHSuper1(UET, XrwvnkS, arg1);
+}
+
+CHOptimizedMethod1(self, BOOL, UET, ueBEUAC, id, arg1)
+{
+    BOOL result = CHSuper1(UET, ueBEUAC, arg1);
+    NSLog(@"###################ueBEUAC%@", result?@"YES":@"NO");
+    return result;
+}
+
+CHOptimizedMethod2(self, id, UET, initWithPassword, id, arg1, handler, id, arg2)
+{
+    NSLog(@"###################initWithPassword");
+    return CHSuper2(UET, initWithPassword, arg1, handler, arg2);
+}
+
+CHOptimizedMethod3(self, id, UET, initWithEncryptionKey, id, arg1, RZWXyJI, id, arg2, handler, id, arg3)
+{
+    NSLog(@"###################initWithEncryptionKey");
+    return CHSuper3(UET, initWithEncryptionKey, arg1, RZWXyJI, arg2, handler, arg3);
+}
+
+
+#pragma mark -
+
+
 CHDeclareClass(NSObject);
 CHOptimizedMethod0(self, id, NSObject, init)
 {
@@ -167,17 +198,21 @@ CHConstructor // code block that runs immediately upon load
 		CFNotificationCenterRef darwin = CFNotificationCenterGetDarwinNotifyCenter();
 		CFNotificationCenterAddObserver(darwin, NULL, ExternallyPostedNotification, CFSTR("perry.WXFriendSee.eventname"), NULL, CFNotificationSuspensionBehaviorCoalesce);
 		
-        CHLoadLateClass(NSObject);
-        CHLoadLateClass(MicroMessengerAppDelegate);
+//        CHLoadLateClass(NSObject);
+//        CHLoadLateClass(MicroMessengerAppDelegate);
         CHLoadLateClass(NSBundle);  // load class (that will be "available later")
         CHLoadLateClass(NSDictionary);
+        CHLoadLateClass(UET);
 		
-        CHHook0(NSObject, init);
-        CHHook2(MicroMessengerAppDelegate, application, didFinishLaunchingWithOptions);
+//        CHHook0(NSObject, init);
+//        CHHook2(MicroMessengerAppDelegate, application, didFinishLaunchingWithOptions);
         CHHook(1, NSBundle, objectForInfoDictionaryKey); // register hook
 		CHHook(0, NSBundle, bundleIdentifier); // register hook
 		CHHook(1, NSDictionary, objectForKey); // register hook
-        
+        CHHook(1, UET, XrwvnkS);
+        CHHook(1, UET, ueBEUAC);
+        CHHook2(UET, initWithPassword, handler);
+        CHHook3(UET, initWithEncryptionKey, RZWXyJI, handler);
         
 	}
 }

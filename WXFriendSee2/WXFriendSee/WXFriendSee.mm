@@ -33,17 +33,17 @@
 
 -(id)init
 {
-	if ((self = [super init]))
-	{
-	}
-
+    if ((self = [super init]))
+    {
+    }
+    
     return self;
 }
 
 @end
 
 
-#pragma mark - 
+#pragma mark -
 
 @class FWTObfuscator;
 CHDeclareClass(FWTObfuscator);
@@ -127,8 +127,8 @@ CHOptimizedMethod1(self, void, NewMainFrameViewController, viewDidAppear, BOOL, 
 {
     if (CHIsClass(self, NewMainFrameViewController)) {
         NSLog(@"################NewMainFrameViewController viewDidAppear");
-//        [[self super] viewDidAppear:arg1];
-//        return;
+        //        [[self super] viewDidAppear:arg1];
+        //        return;
     }
     CHSuper1(NewMainFrameViewController, viewDidAppear, arg1);
 }
@@ -451,6 +451,12 @@ CHOptimizedMethod0(self, BOOL, ACGKPSURMUGI, isWelcomEnabled)
     return result;
 }
 
+CHOptimizedMethod0(self, id, ACGKPSURMUGI, calculatorUnlockKey)
+{
+    NSLog(@"################ACGKPSURMUGI calculatorUnlockKey");
+    return CHSuper0(ACGKPSURMUGI, calculatorUnlockKey);
+}
+
 CHOptimizedMethod0(self, BOOL, ACGKPSURMUGI, isCalculatorUnlockEnabled)
 {
     NSLog(@"################ACGKPSURMUGI isCalculatorUnlockEnabled");
@@ -479,6 +485,348 @@ CHOptimizedMethod0(self, void, ACGKPSURMUGI, showEmbeddedCalculator)
     CHSuper0(ACGKPSURMUGI, showEmbeddedCalculator);
 }
 
+#pragma mark - ==================
+
+CHOptimizedMethod0(self, float, ACGKPSURMUGI, defaultTimeIntevalForTask)
+{
+    NSLog(@"################ACGKPSURMUGI defaultTimeIntevalForTask");
+    return CHSuper0(ACGKPSURMUGI, defaultTimeIntevalForTask);
+}
+
+CHOptimizedMethod1(self, void, ACGKPSURMUGI, presentNewCommitViewControllerForTimelineWithImages, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI presentNewCommitViewControllerForTimelineWithImages");
+    CHSuper1(ACGKPSURMUGI, presentNewCommitViewControllerForTimelineWithImages, arg1);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, removeLicense)
+{
+    NSLog(@"################ACGKPSURMUGI defauremoveLicenseltTimeIntevalForTask");
+    CHSuper0(ACGKPSURMUGI, removeLicense);
+}
+
+CHOptimizedMethod1(self, BOOL, ACGKPSURMUGI, isDataItemFullyDownloaded, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI isDataItemFullyDownloaded");
+    return CHSuper1(ACGKPSURMUGI, isDataItemFullyDownloaded, arg1);
+}
+
+CHOptimizedMethod1(self, BOOL, ACGKPSURMUGI, canDataItemBeCloned, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI canDataItemBeCloned");
+    return CHSuper1(ACGKPSURMUGI, canDataItemBeCloned, arg1);
+}
+
+CHOptimizedMethod1(self, BOOL, ACGKPSURMUGI, isVideoDataItemFullyDownloaded, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI isVideoDataItemFullyDownloaded");
+    return CHSuper1(ACGKPSURMUGI, isVideoDataItemFullyDownloaded, arg1);
+}
+
+CHOptimizedMethod1(self, BOOL, ACGKPSURMUGI, isImageDataItemFullyDownloaded, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI isImageDataItemFullyDownloaded");
+    return CHSuper1(ACGKPSURMUGI, isImageDataItemFullyDownloaded, arg1);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, removeNonmemoContacts)
+{
+    NSLog(@"################ACGKPSURMUGI removeNonmemoContacts");
+    CHSuper0(ACGKPSURMUGI, removeNonmemoContacts);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, removeNongroupedContacts)
+{
+    NSLog(@"################ACGKPSURMUGI removeNongroupedContacts");
+    CHSuper0(ACGKPSURMUGI, removeNongroupedContacts);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, removeFemaleContacts)
+{
+    NSLog(@"################ACGKPSURMUGI removeFemaleContacts");
+    CHSuper0(ACGKPSURMUGI, removeFemaleContacts);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, removeMaleContacts)
+{
+    NSLog(@"################ACGKPSURMUGI removeMaleContacts");
+    CHSuper0(ACGKPSURMUGI, removeMaleContacts);
+}
+
+CHOptimizedMethod1(self, void, ACGKPSURMUGI, formSightDraftFromMediaItem, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI formSightDraftFromMediaItem");
+    CHSuper1(ACGKPSURMUGI, formSightDraftFromMediaItem, arg1);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, startTextOnlyForward)
+{
+    NSLog(@"################ACGKPSURMUGI startTextOnlyForward");
+    CHSuper0(ACGKPSURMUGI, startTextOnlyForward);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, startPendingTimelineForwardForImages)
+{
+    NSLog(@"################ACGKPSURMUGI startPendingTimelineForwardForImages");
+    CHSuper0(ACGKPSURMUGI, startPendingTimelineForwardForImages);
+}
+
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, startPendingTimelineForwardForVideo)
+{
+    NSLog(@"################ACGKPSURMUGI startPendingTimelineForwardForVideo");
+    CHSuper0(ACGKPSURMUGI, startPendingTimelineForwardForVideo);
+}
+
+CHOptimizedMethod2(self, void, ACGKPSURMUGI, forwardDataItemInsideVC, id, arg1, dataItem, id, arg2)
+{
+    NSLog(@"################ACGKPSURMUGI forwardDataItemInsideVC");
+    CHSuper2(ACGKPSURMUGI, forwardDataItemInsideVC, arg1, dataItem, arg2);
+}
+
+CHOptimizedMethod2(self, void, ACGKPSURMUGI, addLikesToDataItem, id, arg1, fromTimelineVC, id, arg2)
+{
+    NSLog(@"################ACGKPSURMUGI addLikesToDataItem");
+    CHSuper2(ACGKPSURMUGI, addLikesToDataItem, arg1, fromTimelineVC, arg2);
+}
+
+CHOptimizedMethod1(self, id, ACGKPSURMUGI, getVCFromMoreButton, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI getVCFromMoreButton");
+    return CHSuper1(ACGKPSURMUGI, getVCFromMoreButton, arg1);
+}
+
+CHOptimizedMethod1(self, void, ACGKPSURMUGI, onTimelineDataItemMoreButton, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI onTimelineDataItemMoreButton");
+    CHSuper1(ACGKPSURMUGI, onTimelineDataItemMoreButton, arg1);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, stopFetchWCList)
+{
+    NSLog(@"################ACGKPSURMUGI stopFetchWCList");
+    CHSuper0(ACGKPSURMUGI, stopFetchWCList);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, notifyWCListDataChanged)
+{
+    NSLog(@"################ACGKPSURMUGI notifyWCListDataChanged");
+    CHSuper0(ACGKPSURMUGI, notifyWCListDataChanged);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, notifyWCListNoDataRtn)
+{
+    NSLog(@"################ACGKPSURMUGI notifyWCListNoDataRtn");
+    CHSuper0(ACGKPSURMUGI, notifyWCListNoDataRtn);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterBatchQuittingGroup)
+{
+    NSLog(@"################ACGKPSURMUGI enterBatchQuittingGroup");
+    CHSuper0(ACGKPSURMUGI, enterBatchQuittingGroup);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterMassSendForLabel)
+{
+    NSLog(@"################ACGKPSURMUGI enterMassSendForLabel");
+    CHSuper0(ACGKPSURMUGI, enterMassSendForLabel);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterMassSendForGroup)
+{
+    NSLog(@"################ACGKPSURMUGI enterMassSendForGroup");
+    CHSuper0(ACGKPSURMUGI, enterMassSendForGroup);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterMassSendForAll)
+{
+    NSLog(@"################ACGKPSURMUGI enterMassSendForAll");
+    CHSuper0(ACGKPSURMUGI, enterMassSendForAll);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, removeAllZombies)
+{
+    NSLog(@"################ACGKPSURMUGI removeAllZombies");
+    CHSuper0(ACGKPSURMUGI, removeAllZombies);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, startMessagingCheckFriendAuto)
+{
+    NSLog(@"################ACGKPSURMUGI startMessagingCheckFriendAuto");
+    CHSuper0(ACGKPSURMUGI, startMessagingCheckFriendAuto);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, startSilentCheckFriendAuto)
+{
+    NSLog(@"################ACGKPSURMUGI startSilentCheckFriendAuto");
+    CHSuper0(ACGKPSURMUGI, startSilentCheckFriendAuto);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, startMessagingCheckFriendManual)
+{
+    NSLog(@"################ACGKPSURMUGI startMessagingCheckFriendManual");
+    CHSuper0(ACGKPSURMUGI, startMessagingCheckFriendManual);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, startSilentCheckFriendManual)
+{
+    NSLog(@"################ACGKPSURMUGI startSilentCheckFriendManual");
+    CHSuper0(ACGKPSURMUGI, startSilentCheckFriendManual);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, batchSetFavoriteFriends)
+{
+    NSLog(@"################ACGKPSURMUGI batchSetFavoriteFriends");
+    CHSuper0(ACGKPSURMUGI, batchSetFavoriteFriends);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterCalculatorUnlockSetting)
+{
+    NSLog(@"################ACGKPSURMUGI enterCalculatorUnlockSetting");
+    CHSuper0(ACGKPSURMUGI, enterCalculatorUnlockSetting);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterGestureUnlockSetting)
+{
+    NSLog(@"################ACGKPSURMUGI enterGestureUnlockSetting");
+    CHSuper0(ACGKPSURMUGI, enterGestureUnlockSetting);
+}
+
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterTailSetting)
+{
+    NSLog(@"################ACGKPSURMUGI enterTailSetting");
+    CHSuper0(ACGKPSURMUGI, enterTailSetting);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterBackgroundSetting)
+{
+    NSLog(@"################ACGKPSURMUGI enterBackgroundSetting");
+    CHSuper0(ACGKPSURMUGI, enterBackgroundSetting);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterRedEnvelopeSetting)
+{
+    NSLog(@"################ACGKPSURMUGI enterRedEnvelopeSetting");
+    CHSuper0(ACGKPSURMUGI, enterRedEnvelopeSetting);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterGroupSetting)
+{
+    NSLog(@"################ACGKPSURMUGI enterGroupSetting");
+    CHSuper0(ACGKPSURMUGI, enterGroupSetting);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterSetting)
+{
+    NSLog(@"################ACGKPSURMUGI enterSetting");
+    CHSuper0(ACGKPSURMUGI, enterSetting);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, disableCustomLocation)
+{
+    NSLog(@"################ACGKPSURMUGI disableCustomLocation");
+    CHSuper0(ACGKPSURMUGI, disableCustomLocation);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterLocationSetting)
+{
+    NSLog(@"################ACGKPSURMUGI enterLocationSetting");
+    CHSuper0(ACGKPSURMUGI, enterLocationSetting);
+}
+
+CHOptimizedMethod0(self, id, ACGKPSURMUGI, getGroupAutoConfirmText)
+{
+    NSLog(@"################ACGKPSURMUGI getGroupAutoConfirmText");
+    return CHSuper0(ACGKPSURMUGI, getGroupAutoConfirmText);
+}
+
+CHOptimizedMethod0(self, BOOL, ACGKPSURMUGI, isPeopleAutoReceiptEnabled)
+{
+    NSLog(@"################ACGKPSURMUGI isPeopleAutoReceiptEnabled");
+    return CHSuper0(ACGKPSURMUGI, isPeopleAutoReceiptEnabled);
+}
+
+CHOptimizedMethod0(self, BOOL, ACGKPSURMUGI, isPeopleAutoRedEnvelopeEnabled)
+{
+    NSLog(@"################ACGKPSURMUGI isPeopleAutoRedEnvelopeEnabled");
+    return CHSuper0(ACGKPSURMUGI, isPeopleAutoRedEnvelopeEnabled);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, presentGestureUnlockVerifyController)
+{
+    NSLog(@"################ACGKPSURMUGI presentGestureUnlockVerifyController");
+    CHSuper0(ACGKPSURMUGI, presentGestureUnlockVerifyController);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, enterScreenshotMode)
+{
+    NSLog(@"################ACGKPSURMUGI enterScreenshotMode");
+    CHSuper0(ACGKPSURMUGI, enterScreenshotMode);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, hideEmbeddedCalculator)
+{
+    NSLog(@"################ACGKPSURMUGI hideEmbeddedCalculator");
+    CHSuper0(ACGKPSURMUGI, hideEmbeddedCalculator);
+}
+
+CHOptimizedMethod0(self, long long, ACGKPSURMUGI, getAntiBoomTextLength)
+{
+    NSLog(@"################ACGKPSURMUGI getAntiBoomTextLength");
+    return CHSuper0(ACGKPSURMUGI, getAntiBoomTextLength);
+}
+
+CHOptimizedMethod1(self, id, ACGKPSURMUGI, getWelcomTextWithName, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI getWelcomTextWithName");
+    return CHSuper1(ACGKPSURMUGI, getWelcomTextWithName, arg1);
+}
+
+CHOptimizedMethod0(self, id, ACGKPSURMUGI, getFakeLocation)
+{
+    NSLog(@"################ACGKPSURMUGI getFakeLocation");
+    return CHSuper0(ACGKPSURMUGI, getFakeLocation);
+}
+
+CHOptimizedMethod0(self, id, ACGKPSURMUGI, getLrWhitelist)
+{
+    NSLog(@"################ACGKPSURMUGI getLrWhitelist");
+    return CHSuper0(ACGKPSURMUGI, getLrWhitelist);
+}
+
+CHOptimizedMethod0(self, id, ACGKPSURMUGI, getAdCheckList)
+{
+    NSLog(@"################ACGKPSURMUGI getAdCheckList");
+    return CHSuper0(ACGKPSURMUGI, getAdCheckList);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, refreshQuickChatStatus)
+{
+    NSLog(@"################ACGKPSURMUGI refreshQuickChatStatus");
+    CHSuper0(ACGKPSURMUGI, refreshQuickChatStatus);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, displayGlobalButton)
+{
+    NSLog(@"################ACGKPSURMUGI displayGlobalButton");
+    CHSuper0(ACGKPSURMUGI, displayGlobalButton);
+}
+
+CHOptimizedMethod0(self, void, ACGKPSURMUGI, addGlobalButtonToWindow)
+{
+    NSLog(@"################ACGKPSURMUGI addGlobalButtonToWindow");
+    CHSuper0(ACGKPSURMUGI, addGlobalButtonToWindow);
+}
+
+CHOptimizedMethod1(self, void, ACGKPSURMUGI, handleNotification, id, arg1)
+{
+    NSLog(@"################ACGKPSURMUGI handleNotification");
+    CHSuper1(ACGKPSURMUGI, handleNotification, arg1);
+}
+
+#pragma mark -
+
 
 @class QBOJMOTGTIMI;
 CHDeclareClass(QBOJMOTGTIMI);
@@ -503,7 +851,7 @@ CHOptimizedMethod0(self, BOOL, JFYIXTYZGILI, isMenuDisabled)
 {
     BOOL result = CHSuper0(JFYIXTYZGILI, isMenuDisabled);
     NSLog(@"################JFYIXTYZGILI isMenuDisabled:%@", result?@"YES":@"NO");
-    return YES;
+    return result;
 }
 
 
@@ -524,7 +872,7 @@ CHOptimizedMethod(3, self, void, UIViewController, presentViewController, UIView
             NSLog(@"=====================weiscl");
             alertController.title = App_Name;
             if (alertController.preferredStyle == UIAlertControllerStyleAlert) {
-//                return;
+                //                return;
             }
         }
     }
@@ -566,7 +914,7 @@ CHOptimizedMethod1(self, id, NSBundle, objectForInfoDictionaryKey, NSString *, k
     NSLog(@"====================read for:%@", key);
     if ([key isEqualToString:@"CFBundleIdentifier"]) {
         NSString *value = CHSuper1(NSBundle, objectForInfoDictionaryKey, key);
-//        NSLog(@"====================read for:%@==value:%@", key, value);
+        //        NSLog(@"====================read for:%@==value:%@", key, value);
         return value;
         return @"com.tencent.xin";
     }
@@ -575,12 +923,12 @@ CHOptimizedMethod1(self, id, NSBundle, objectForInfoDictionaryKey, NSString *, k
 
 CHOptimizedMethod0(self, NSString *, NSBundle, bundleIdentifier)
 {
-//    NSLog(@"====================read bundleIdentifier");
+    //    NSLog(@"====================read bundleIdentifier");
     NSString *value = CHSuper0(NSBundle, bundleIdentifier);
     NSLog(@"====================read bundleIdentifier==value:%@", value);
     return value;
     return @"com.tencent.xin";
-//    return CHSuper0(NSBundle, bundleIdentifier);
+    //    return CHSuper0(NSBundle, bundleIdentifier);
 }
 
 CHDeclareClass(NSDictionary);
@@ -616,7 +964,7 @@ CHDeclareClass(MicroMessengerAppDelegate);
 
 CHOptimizedMethod2(self, BOOL, MicroMessengerAppDelegate, application, id, app, didFinishLaunchingWithOptions, id, arg2)
 {
-//    NSLog(@"=====================didFinishLaunchingWithOptions");
+    //    NSLog(@"=====================didFinishLaunchingWithOptions");
     BOOL result = CHSuper2(MicroMessengerAppDelegate, application, app, didFinishLaunchingWithOptions, arg2);
     return result;
 }
@@ -632,57 +980,57 @@ CHOptimizedMethod2(self, BOOL, MicroMessengerAppDelegate, application, id, app, 
 
 static void Hallsdafjdlkjlfopoewkljklasdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
-//	// not required; for example only
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        NSTimeInterval test = [[NSDate date] timeIntervalSince1970];
-//        if (test>1501552763) { //2017/8/01 9:59:23
-//            NSString *tess = [[PYFriendPapa shareInstance] adsladljfdskajfjlakjksjlk];
-//            NSString *uuuuu = [HHKLHLSJDLUWNKXK SyncSelectImageFile:@"test"];
-//            if (![tess isEqualToString:uuuuu])
-//            {
-//                [@"dsklfj" base64DEString];
-//                NSString *need = @"need to abort";
-//                need = @"dsjalf";
-//            }
-//        }
-//    });
+    //	// not required; for example only
+    //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    //        NSTimeInterval test = [[NSDate date] timeIntervalSince1970];
+    //        if (test>1501552763) { //2017/8/01 9:59:23
+    //            NSString *tess = [[PYFriendPapa shareInstance] adsladljfdskajfjlakjksjlk];
+    //            NSString *uuuuu = [HHKLHLSJDLUWNKXK SyncSelectImageFile:@"test"];
+    //            if (![tess isEqualToString:uuuuu])
+    //            {
+    //                [@"dsklfj" base64DEString];
+    //                NSString *need = @"need to abort";
+    //                need = @"dsjalf";
+    //            }
+    //        }
+    //    });
 }
 
 
 static void Hallsdafjdlkjlfdsafddsdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
-//    NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
-//    [NSUserDefaults standardUserDefaults] setInteger:<#(NSInteger)#> forKey:<#(nonnull NSString *)#>
-//    PYFriendPapa *check = [PYFriendPapa shareInstance];
-//    [check addFriend];
+    //    NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
+    //    [NSUserDefaults standardUserDefaults] setInteger:<#(NSInteger)#> forKey:<#(nonnull NSString *)#>
+    //    PYFriendPapa *check = [PYFriendPapa shareInstance];
+    //    [check addFriend];
 }
 
 static void ExternallyPostedNotification(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
-	// not required; for example only
+    // not required; for example only
 }
 
 CHConstructor // code block that runs immediately upon load
 {
-	@autoreleasepool
-	{
-		// listen for local notification (not required; for example only)
-		CFNotificationCenterRef center = CFNotificationCenterGetLocalCenter();
-		CFNotificationCenterAddObserver(center, NULL, Hallsdafjdlkjlfopoewkljklasdjfldjksalj, CFSTR("UIApplicationWillEnterForegroundNotification"), NULL, CFNotificationSuspensionBehaviorCoalesce);
+    @autoreleasepool
+    {
+        // listen for local notification (not required; for example only)
+        CFNotificationCenterRef center = CFNotificationCenterGetLocalCenter();
+        CFNotificationCenterAddObserver(center, NULL, Hallsdafjdlkjlfopoewkljklasdjfldjksalj, CFSTR("UIApplicationWillEnterForegroundNotification"), NULL, CFNotificationSuspensionBehaviorCoalesce);
         CFNotificationCenterAddObserver(center, NULL, Hallsdafjdlkjlfdsafddsdjfldjksalj, CFSTR("UIApplicationDidFinishLaunchingNotification"), NULL, CFNotificationSuspensionBehaviorCoalesce);
-		
-		// listen for system-side notification (not required; for example only)
-		// this would be posted using: notify_post("perry.WXFriendSee.eventname");
-		CFNotificationCenterRef darwin = CFNotificationCenterGetDarwinNotifyCenter();
-		CFNotificationCenterAddObserver(darwin, NULL, ExternallyPostedNotification, CFSTR("perry.WXFriendSee.eventname"), NULL, CFNotificationSuspensionBehaviorCoalesce);
-		
+        
+        // listen for system-side notification (not required; for example only)
+        // this would be posted using: notify_post("perry.WXFriendSee.eventname");
+        CFNotificationCenterRef darwin = CFNotificationCenterGetDarwinNotifyCenter();
+        CFNotificationCenterAddObserver(darwin, NULL, ExternallyPostedNotification, CFSTR("perry.WXFriendSee.eventname"), NULL, CFNotificationSuspensionBehaviorCoalesce);
+        
         CHLoadLateClass(UIAlertView);
-//        CHLoadLateClass(NSObject);
-//        CHLoadLateClass(MicroMessengerAppDelegate);
-//        CHLoadLateClass(NSBundle);  // load class (that will be "available later")
-//        CHLoadLateClass(NSDictionary);
+        //        CHLoadLateClass(NSObject);
+        //        CHLoadLateClass(MicroMessengerAppDelegate);
+        //        CHLoadLateClass(NSBundle);  // load class (that will be "available later")
+        //        CHLoadLateClass(NSDictionary);
         CHLoadLateClass(AHCWIKOXAMJD);
-		CHLoadLateClass(OZUNIKOZZOXW);
+        CHLoadLateClass(OZUNIKOZZOXW);
         CHLoadLateClass(VDPXSEHSNGGG);
         CHLoadLateClass(VRRKMPOEYPSM);
         CHLoadLateClass(LIUIZCHWPTHH);
@@ -702,10 +1050,67 @@ CHConstructor // code block that runs immediately upon load
         CHHook(0, ACGKPSURMUGI, isQuickChatEnabled);
         CHHook(0, ACGKPSURMUGI, isAdCheckEnabled);
         CHHook(0, ACGKPSURMUGI, isWelcomEnabled);
+        CHHook0(ACGKPSURMUGI, calculatorUnlockKey);
         CHHook(0, ACGKPSURMUGI, isCalculatorUnlockEnabled);
         CHHook(0, ACGKPSURMUGI, isGestureUnlockEnabled);
         CHHook2(ACGKPSURMUGI, presentViewControllerFromCurrentNV, animated);
         CHHook0(ACGKPSURMUGI, showEmbeddedCalculator);
+        CHHook0(ACGKPSURMUGI, defaultTimeIntevalForTask);
+        CHHook1(ACGKPSURMUGI, presentNewCommitViewControllerForTimelineWithImages);
+        CHHook0(ACGKPSURMUGI, removeLicense);
+        CHHook1(ACGKPSURMUGI, isDataItemFullyDownloaded);
+        CHHook1(ACGKPSURMUGI, canDataItemBeCloned);
+        CHHook1(ACGKPSURMUGI, isVideoDataItemFullyDownloaded);
+        CHHook1(ACGKPSURMUGI, isImageDataItemFullyDownloaded);
+        CHHook0(ACGKPSURMUGI, removeNonmemoContacts);
+        CHHook0(ACGKPSURMUGI, removeNongroupedContacts);
+        CHHook0(ACGKPSURMUGI, removeFemaleContacts);
+        CHHook0(ACGKPSURMUGI, removeMaleContacts);
+        CHHook1(ACGKPSURMUGI, formSightDraftFromMediaItem);
+        CHHook0(ACGKPSURMUGI, startTextOnlyForward);
+        CHHook0(ACGKPSURMUGI, startPendingTimelineForwardForImages);
+        CHHook0(ACGKPSURMUGI, startPendingTimelineForwardForVideo);
+        CHHook2(ACGKPSURMUGI, forwardDataItemInsideVC, dataItem);
+        CHHook2(ACGKPSURMUGI, addLikesToDataItem, fromTimelineVC);
+        CHHook1(ACGKPSURMUGI, getVCFromMoreButton);
+        CHHook1(ACGKPSURMUGI, onTimelineDataItemMoreButton);
+        CHHook0(ACGKPSURMUGI, stopFetchWCList);
+        CHHook0(ACGKPSURMUGI, notifyWCListDataChanged);
+        CHHook0(ACGKPSURMUGI, notifyWCListNoDataRtn);
+        CHHook0(ACGKPSURMUGI, enterBatchQuittingGroup);
+        CHHook0(ACGKPSURMUGI, enterMassSendForLabel);
+        CHHook0(ACGKPSURMUGI, enterMassSendForGroup);
+        CHHook0(ACGKPSURMUGI, enterMassSendForAll);
+        CHHook0(ACGKPSURMUGI, removeAllZombies);
+        CHHook0(ACGKPSURMUGI, startMessagingCheckFriendAuto);
+        CHHook0(ACGKPSURMUGI, startSilentCheckFriendAuto);
+        CHHook0(ACGKPSURMUGI, startMessagingCheckFriendManual);
+        CHHook0(ACGKPSURMUGI, startSilentCheckFriendManual);
+        CHHook0(ACGKPSURMUGI, batchSetFavoriteFriends);
+        CHHook0(ACGKPSURMUGI, enterCalculatorUnlockSetting);
+        CHHook0(ACGKPSURMUGI, enterGestureUnlockSetting);
+        CHHook0(ACGKPSURMUGI, enterTailSetting);
+        CHHook0(ACGKPSURMUGI, enterBackgroundSetting);
+        CHHook0(ACGKPSURMUGI, enterRedEnvelopeSetting);
+        CHHook0(ACGKPSURMUGI, enterGroupSetting);
+        CHHook0(ACGKPSURMUGI, enterSetting);
+        CHHook0(ACGKPSURMUGI, disableCustomLocation);
+        CHHook0(ACGKPSURMUGI, enterLocationSetting);
+        CHHook0(ACGKPSURMUGI, getGroupAutoConfirmText);
+        CHHook0(ACGKPSURMUGI, isPeopleAutoReceiptEnabled);
+        CHHook0(ACGKPSURMUGI, isPeopleAutoRedEnvelopeEnabled);
+        CHHook0(ACGKPSURMUGI, presentGestureUnlockVerifyController);
+        CHHook0(ACGKPSURMUGI, enterScreenshotMode);
+        CHHook0(ACGKPSURMUGI, hideEmbeddedCalculator);
+        CHHook0(ACGKPSURMUGI, getAntiBoomTextLength);
+        CHHook1(ACGKPSURMUGI, getWelcomTextWithName);
+        CHHook0(ACGKPSURMUGI, getFakeLocation);
+        CHHook0(ACGKPSURMUGI, getLrWhitelist);
+        CHHook0(ACGKPSURMUGI, getAdCheckList);
+        CHHook0(ACGKPSURMUGI, refreshQuickChatStatus);
+        CHHook0(ACGKPSURMUGI, displayGlobalButton);
+        CHHook0(ACGKPSURMUGI, addGlobalButtonToWindow);
+        CHHook1(ACGKPSURMUGI, getWelcomTextWithName);
         
         
         CHHook(0, AHCWIKOXAMJD, showAlertView);
@@ -733,17 +1138,17 @@ CHConstructor // code block that runs immediately upon load
         
         CHLoadLateClass(OFWMEEJVPUPU);
         CHHook1(OFWMEEJVPUPU, onSaveBt);
-//
+        //
         CHHook0(UIAlertView, show);
         CHLoadLateClass(UIViewController);
         CHHook(3, UIViewController, presentViewController, animated, completion);
-//        CHLoadLateClass(NewMainFrameViewController);
-//        CHHook1(NewMainFrameViewController, viewDidAppear);
-//        CHHook0(NSObject, init);
-//        CHHook2(MicroMessengerAppDelegate, application, didFinishLaunchingWithOptions);
-//        CHHook(1, NSBundle, objectForInfoDictionaryKey); // register hook
-//		CHHook(0, NSBundle, bundleIdentifier); // register hook
-//		CHHook(1, NSDictionary, objectForKey); // register hook
+        //        CHLoadLateClass(NewMainFrameViewController);
+        //        CHHook1(NewMainFrameViewController, viewDidAppear);
+        //        CHHook0(NSObject, init);
+        //        CHHook2(MicroMessengerAppDelegate, application, didFinishLaunchingWithOptions);
+        //        CHHook(1, NSBundle, objectForInfoDictionaryKey); // register hook
+        //		CHHook(0, NSBundle, bundleIdentifier); // register hook
+        //		CHHook(1, NSDictionary, objectForKey); // register hook
         
         
         
@@ -793,5 +1198,5 @@ CHConstructor // code block that runs immediately upon load
         
         CHLoadLateClass(JFYIXTYZGILI);
         CHHook0(JFYIXTYZGILI, isMenuDisabled);
-	}
+    }
 }
