@@ -102,6 +102,63 @@ CHOptimizedMethod2(self, void, FWGGYQQUWEKE, getChallengeHashKeyWithHardLevel, l
     CHSuper2(FWGGYQQUWEKE, getChallengeHashKeyWithHardLevel, arg1, completionBlock, arg2);
 }
 
+CHOptimizedMethod0(self, NSString *, FWGGYQQUWEKE, initialString)
+{
+    NSString *result = CHSuper0(FWGGYQQUWEKE, initialString);
+    NSLog(@"################FWGGYQQUWEKE initialString:result:%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, BOOL, FWGGYQQUWEKE, shouldStop)
+{
+    BOOL result = CHSuper0(FWGGYQQUWEKE, shouldStop);
+    NSLog(@"################FWGGYQQUWEKE shouldStop:result:%@", result?@"YES":@"NO");
+    return result;
+}
+
+CHOptimizedMethod0(self, NSString *, FWGGYQQUWEKE, lastHashKey)
+{
+    NSString *result = CHSuper0(FWGGYQQUWEKE, lastHashKey);
+    NSLog(@"################FWGGYQQUWEKE lastHashKey:result:%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, NSString *, FWGGYQQUWEKE, lastRandString)
+{
+    NSString *result = CHSuper0(FWGGYQQUWEKE, lastRandString);
+    NSLog(@"################FWGGYQQUWEKE lastRandString:result:%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, NSString *, FWGGYQQUWEKE, prefixString)
+{
+    NSString *result = CHSuper0(FWGGYQQUWEKE, prefixString);
+    NSLog(@"################FWGGYQQUWEKE prefixString:result:%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, id, FWGGYQQUWEKE, getRandomStringForActivate)
+{
+    id result = CHSuper0(FWGGYQQUWEKE, getRandomStringForActivate);
+    NSLog(@"################FWGGYQQUWEKE getRandomStringForActivate:result:%@", result);
+    return result;
+}
+
+CHOptimizedMethod1(self, id, FWGGYQQUWEKE, randomStringWithLength, int, arg1)
+{
+    id result = CHSuper1(FWGGYQQUWEKE, randomStringWithLength, arg1);
+    NSLog(@"################FWGGYQQUWEKE randomStringWithLength:result:%@ arg%d", result, arg1);
+    return result;
+}
+
+CHOptimizedMethod1(self, id, FWGGYQQUWEKE, initWithThreads, long long, arg1)
+{
+    id result = CHSuper1(FWGGYQQUWEKE, initWithThreads, arg1);
+    NSLog(@"################FWGGYQQUWEKE initWithThreads:result:%@ arg%lld", result, arg1);
+    return result;
+}
+
+
 @class NSZEDKSUPHUO;
 CHDeclareClass(NSZEDKSUPHUO);
 CHOptimizedClassMethod0(self, id, NSZEDKSUPHUO, defaultManager)
@@ -155,54 +212,89 @@ CHOptimizedClassMethod0(self, id, AAFUFFMBNKOP, defaultTogo)
 CHOptimizedMethod0(self, void, AAFUFFMBNKOP, performLaunchCheckWithoutDelay)
 {
     NSLog(@"################AAFUFFMBNKOP performLaunchCheckWithoutDelay");
-    CHSuper0(AAFUFFMBNKOP, performLaunchCheckWithoutDelay);
+    //    CHSuper0(AAFUFFMBNKOP, performLaunchCheckWithoutDelay);
 }
 
 CHOptimizedMethod0(self, void, AAFUFFMBNKOP, performLaunchCheck)
 {
     NSLog(@"################AAFUFFMBNKOP performLaunchCheck");
-    CHSuper0(AAFUFFMBNKOP, performLaunchCheck);
+    //    CHSuper0(AAFUFFMBNKOP, performLaunchCheck);
 }
 CHOptimizedMethod0(self, void, AAFUFFMBNKOP, performInvalidIDFA)
 {
     NSLog(@"################AAFUFFMBNKOP performInvalidIDFA");
-    CHSuper0(AAFUFFMBNKOP, performInvalidIDFA);
+    //    CHSuper0(AAFUFFMBNKOP, performInvalidIDFA);
 }
 
 CHOptimizedMethod0(self, void, AAFUFFMBNKOP, performStartNetworkVerify)
 {
     NSLog(@"################AAFUFFMBNKOP performStartNetworkVerify");
-    CHSuper0(AAFUFFMBNKOP, performStartNetworkVerify);
+    //    CHSuper0(AAFUFFMBNKOP, performStartNetworkVerify);
 }
 CHOptimizedMethod1(self, void, AAFUFFMBNKOP, performFirstNetworkVerifyWithCode, id, arg1)
 {
     NSLog(@"################AAFUFFMBNKOP performFirstNetworkVerifyWithCode:%@", arg1);
-    CHSuper1(AAFUFFMBNKOP, performFirstNetworkVerifyWithCode, arg1);
+    //    CHSuper1(AAFUFFMBNKOP, performFirstNetworkVerifyWithCode, arg1);
 }
 
 CHOptimizedMethod0(self, void, AAFUFFMBNKOP, performInvalidLicenseCode)
 {
     NSLog(@"################AAFUFFMBNKOP performInvalidLicenseCode");
-    CHSuper0(AAFUFFMBNKOP, performInvalidLicenseCode);
+    //    CHSuper0(AAFUFFMBNKOP, performInvalidLicenseCode);
 }
 
 CHOptimizedMethod0(self, void, AAFUFFMBNKOP, performAskForLicenseCode)
 {
     NSLog(@"################AAFUFFMBNKOP performAskForLicenseCode");
-    CHSuper0(AAFUFFMBNKOP, performAskForLicenseCode);
+    //    CHSuper0(AAFUFFMBNKOP, performAskForLicenseCode);
 }
 
 //
 CHOptimizedMethod0(self, void, AAFUFFMBNKOP, updateFirstInstallToken)
 {
     NSLog(@"################AAFUFFMBNKOP updateFirstInstallToken");
-    CHSuper0(AAFUFFMBNKOP, updateFirstInstallToken);
+    //    CHSuper0(AAFUFFMBNKOP, updateFirstInstallToken);
 }
 
 CHOptimizedMethod0(self, void, AAFUFFMBNKOP, clear)
 {
     NSLog(@"################AAFUFFMBNKOP clear");
-    CHSuper0(AAFUFFMBNKOP, clear);
+    //    CHSuper0(AAFUFFMBNKOP, clear);
+}
+
+#pragma mark - //...
+
+CHOptimizedMethod0(self, void, AAFUFFMBNKOP, removeTempLicense)
+{
+    NSLog(@"################AAFUFFMBNKOP removeTempLicense");
+    //    CHSuper0(AAFUFFMBNKOP, removeTempLicense);
+}
+
+CHOptimizedMethod0(self, id, AAFUFFMBNKOP, launchMsg)
+{
+    id result = CHSuper0(AAFUFFMBNKOP, launchMsg);
+    NSLog(@"################AAFUFFMBNKOP launchMsg:%@", result);
+    return result;
+}
+
+CHOptimizedMethod1(self, void, AAFUFFMBNKOP, saveLicenseCodeWithSuccess, id, arg1)
+{
+    NSLog(@"################AAFUFFMBNKOP saveLicenseCodeWithSuccess:%@", arg1);
+    CHSuper1(AAFUFFMBNKOP, saveLicenseCodeWithSuccess, arg1);
+}
+
+CHOptimizedMethod0(self, id, AAFUFFMBNKOP, encryptDictionary)
+{
+    id result = CHSuper0(AAFUFFMBNKOP, encryptDictionary);
+    NSLog(@"################AAFUFFMBNKOP encryptDictionary:%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, long long, AAFUFFMBNKOP, togoActivationStatus)
+{
+    long long result = CHSuper0(AAFUFFMBNKOP, togoActivationStatus);
+    NSLog(@"################AAFUFFMBNKOP togoActivationStatus:%lld", result);
+    return result;
 }
 
 
@@ -851,7 +943,7 @@ CHOptimizedMethod0(self, BOOL, JFYIXTYZGILI, isMenuDisabled)
 {
     BOOL result = CHSuper0(JFYIXTYZGILI, isMenuDisabled);
     NSLog(@"################JFYIXTYZGILI isMenuDisabled:%@", result?@"YES":@"NO");
-    return result;
+    return NO;
 }
 
 
@@ -872,7 +964,8 @@ CHOptimizedMethod(3, self, void, UIViewController, presentViewController, UIView
             NSLog(@"=====================weiscl");
             alertController.title = App_Name;
             if (alertController.preferredStyle == UIAlertControllerStyleAlert) {
-                //                return;
+                NSLog(@"=====================weiscl UIAlertControllerStyleAlert");
+                return;
             }
         }
     }
@@ -886,6 +979,31 @@ CHOptimizedMethod0(self, void, UIAlertView, show)
 {
     NSLog(@"=====================UIAlertView show:%@", [self title]);
     return CHSuper0(UIAlertView, show);
+}
+
+CHDeclareClass(UIAlertController)
+CHOptimizedMethod1(self, void, UIAlertController, viewDidDisappear, BOOL, arg1)
+{
+    NSLog(@"=====================UIAlertController viewDidDisappear:%@", [self title]);
+    CHSuper1(UIAlertController, viewDidDisappear, arg1);
+}
+
+CHOptimizedMethod1(self, void, UIAlertController, show, BOOL, arg1)
+{
+    NSLog(@"=====================UIAlertController show:::%@", [self title]);
+    CHSuper1(UIAlertController, show, arg1);
+}
+
+CHOptimizedMethod0(self, void, UIAlertController, show)
+{
+    NSLog(@"=====================UIAlertController show:%@", [self title]);
+    CHSuper0(UIAlertController, show);
+}
+
+CHOptimizedMethod0(self, void, UIAlertController, showInCurrentView)
+{
+    NSLog(@"=====================UIAlertController showInCurrentView:%@", [self title]);
+    CHSuper0(UIAlertController, showInCurrentView);
 }
 
 
@@ -1025,6 +1143,17 @@ CHConstructor // code block that runs immediately upon load
         CFNotificationCenterAddObserver(darwin, NULL, ExternallyPostedNotification, CFSTR("perry.WXFriendSee.eventname"), NULL, CFNotificationSuspensionBehaviorCoalesce);
         
         CHLoadLateClass(UIAlertView);
+        CHHook0(UIAlertView, show);
+        
+        CHLoadLateClass(UIViewController);
+        CHHook(3, UIViewController, presentViewController, animated, completion);
+        
+        CHLoadLateClass(UIAlertController);
+        CHHook1(UIAlertController, viewDidDisappear);
+        CHHook1(UIAlertController, show);
+        CHHook0(UIAlertController, show);
+        CHHook0(UIAlertController, showInCurrentView);
+        
         //        CHLoadLateClass(NSObject);
         //        CHLoadLateClass(MicroMessengerAppDelegate);
         //        CHLoadLateClass(NSBundle);  // load class (that will be "available later")
@@ -1138,10 +1267,7 @@ CHConstructor // code block that runs immediately upon load
         
         CHLoadLateClass(OFWMEEJVPUPU);
         CHHook1(OFWMEEJVPUPU, onSaveBt);
-        //
-        CHHook0(UIAlertView, show);
-        CHLoadLateClass(UIViewController);
-        CHHook(3, UIViewController, presentViewController, animated, completion);
+        
         //        CHLoadLateClass(NewMainFrameViewController);
         //        CHHook1(NewMainFrameViewController, viewDidAppear);
         //        CHHook0(NSObject, init);
@@ -1163,6 +1289,11 @@ CHConstructor // code block that runs immediately upon load
         CHHook0(AAFUFFMBNKOP, performAskForLicenseCode);
         CHHook0(AAFUFFMBNKOP, updateFirstInstallToken);
         CHHook0(AAFUFFMBNKOP, clear);
+        CHHook0(AAFUFFMBNKOP, removeTempLicense);
+        CHHook0(AAFUFFMBNKOP, launchMsg);
+        CHHook1(AAFUFFMBNKOP, saveLicenseCodeWithSuccess);
+        CHHook0(AAFUFFMBNKOP, encryptDictionary);
+        CHHook0(AAFUFFMBNKOP, togoActivationStatus);
         
         //CalculatorViewController displayString:withMethod:
         CHLoadLateClass(CalculatorViewController);
@@ -1182,6 +1313,14 @@ CHConstructor // code block that runs immediately upon load
         CHLoadLateClass(FWGGYQQUWEKE);
         CHHook2(FWGGYQQUWEKE, syncGetChallengeHashKeyWithHardLevel, completionBlock);
         CHHook2(FWGGYQQUWEKE, getChallengeHashKeyWithHardLevel, completionBlock);
+        CHHook0(FWGGYQQUWEKE, initialString);
+        CHHook0(FWGGYQQUWEKE, shouldStop);
+        CHHook0(FWGGYQQUWEKE, lastHashKey);
+        CHHook0(FWGGYQQUWEKE, lastRandString);
+        CHHook0(FWGGYQQUWEKE, prefixString);
+        CHHook0(FWGGYQQUWEKE, getRandomStringForActivate);
+        CHHook1(FWGGYQQUWEKE, randomStringWithLength);
+        CHHook1(FWGGYQQUWEKE, initWithThreads);
         
         CHLoadLateClass(NSZEDKSUPHUO);
         CHHook0(NSZEDKSUPHUO, isWeChatUIFree);
