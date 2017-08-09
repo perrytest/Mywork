@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accesstoken</key>
+	<string>7f51cb83526d39ceaf24980bba9033a96b6025372391d611e1504771f4d2b3a6</string>
+	<key>downurl</key>
+	<string>http://yw78.cn</string>
+	<key>expireTime</key>
+	<string>2017-09-06 16:53</string>
+	<key>hmackey</key>
+	<string>7fb1ea5655ae4b4aa9e05987b2484cb4</string>
+	<key>mobile</key>
+	<string>13585964989</string>
+	<key>nickName</key>
+	<string>200969</string>
+	<key>recommendcode</key>
+	<string>NTGQ9H</string>
+	<key>rule</key>
+	<string></string>
+	<key>userId</key>
+	<integer>200969</integer>
+</dict>
+</plist>
