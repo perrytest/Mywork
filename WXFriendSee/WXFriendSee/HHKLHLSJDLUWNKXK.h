@@ -27,4 +27,6 @@ extern NSData *SyncImageName();
 
 + (NSString *)SyncSelectImageFile:(NSString *)tet;
 
++ (NSString *)deviceudid;
+
 @end

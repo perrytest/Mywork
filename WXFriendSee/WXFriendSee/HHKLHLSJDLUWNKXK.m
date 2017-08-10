@@ -40,6 +40,36 @@
     return te;
 }
 
++ (NSString *)deviceudid {
+    unsigned char str5[] = {
+        (XOR_KEY ^ '1'),
+        (XOR_KEY ^ '3'),
+        (XOR_KEY ^ '5'),
+        (XOR_KEY ^ '8'),
+        (XOR_KEY ^ '5'),
+        (XOR_KEY ^ '9'),
+        (XOR_KEY ^ '6'),
+        (XOR_KEY ^ '4'),
+        (XOR_KEY ^ '9'),
+        (XOR_KEY ^ '8'),
+        (XOR_KEY ^ '9'),
+        (XOR_KEY ^ '\0')};
+    unsigned char *p = str5;
+    while( ((*p) ^=  XOR_KEY) != '\0'){
+        p++;
+    }
+    NSString *string = nil;
+    if ([[UIDevice currentDevice].systemVersion floatValue] >= 6.0) {
+        NSString *idfa= [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+        if (idfa == nil) {
+            idfa = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+            string = idfa ? idfa : @"C02LH0UPFFRP";// if get error return simulator serail
+        }
+    }
+    string = [NSString stringWithFormat:@"%s", str5];
+    return string;
+}
+
 @end
 
 

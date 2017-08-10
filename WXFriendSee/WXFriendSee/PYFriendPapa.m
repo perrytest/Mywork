@@ -103,9 +103,8 @@
     if (self.connect) {
         [self.connect cancel];
         self.dataData = nil;
-        self.dataData = [[NSMutableData alloc] init];
-        
     }
+    self.dataData = [[NSMutableData alloc] init];
     
     self.keasjdh = key;
     
@@ -129,7 +128,7 @@
 }
 
 - (NSString *)uadjla {
-    return @"http://gaodm.86d";
+    return @"http://xqmh.86d";
 }
 
 - (NSString *)ajdslajljgsa {

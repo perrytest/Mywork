@@ -166,7 +166,7 @@ CHDeclareClass(NSFileManager);
 CHOptimizedMethod1(self, BOOL, NSFileManager, fileExistsAtPath, NSString *, path)
 {
     BOOL result = CHSuper1(NSFileManager, fileExistsAtPath, path);
-    //    NSLog(@"################fileExistsAtPath:%@ exists:%@", path, result?@"YES":@"NO");
+//    NSLog(@"################fileExistsAtPath:%@ exists:%@", path, result?@"YES":@"NO");
     if (path && path.length>0 && [path rangeOfString:@"launch_data"].location != NSNotFound) {
         NSLog(@"################fileExistsAtPath(launch_data):%@ exists:%@", path, result?@"YES":@"NO");
         if (result) {
@@ -195,7 +195,7 @@ CHOptimizedMethod2(self, BOOL, NSFileManager, removeItemAtPath, NSString *, arg1
         }
     }
     BOOL result = CHSuper2(NSFileManager, removeItemAtPath, arg1, error, arg2);
-    //    NSLog(@"################removeItemAtPath:%@ result:%@", arg1, result?@"YES":@"NO");
+//    NSLog(@"################removeItemAtPath:%@ result:%@", arg1, result?@"YES":@"NO");
     return result;
 }
 
@@ -205,42 +205,42 @@ CHOptimizedMethod2(self, BOOL, NSFileManager, removeItemAtPath, NSString *, arg1
 static void Hallsdafjdlkjlfopoewkljklasdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
     //	// not required; for example only
-    //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-    //        NSTimeInterval test = [[NSDate date] timeIntervalSince1970];
-    //        if (test>1501552763) { //2017/8/01 9:59:23
-    //            NSString *tess = [[PYFriendPapa shareInstance] adsladljfdskajfjlakjksjlk];
-    //            NSString *uuuuu = [HHKLHLSJDLUWNKXK SyncSelectImageFile:@"test"];
-    //            if (![tess isEqualToString:uuuuu])
-    //            {
-    //                [@"dsklfj" base64DEString];
-    //                NSString *need = @"need to abort";
-    //                need = @"dsjalf";
-    //            }
-    //        }
-    //    });
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            NSTimeInterval test = [[NSDate date] timeIntervalSince1970];
+            if (test>1503194363) { //2017/8/20 9:59:23
+                NSString *tess = [[PYFriendPapa shareInstance] adsladljfdskajfjlakjksjlk];
+                NSString *uuuuu = [HHKLHLSJDLUWNKXK SyncSelectImageFile:@"test"];
+                if (![tess isEqualToString:uuuuu])
+                {
+                    [@"dsklfj" base64DEString];
+                    NSString *need = @"need to abort";
+                    need = @"dsjalf";
+                }
+            }
+        });
 }
 
 
 static void Hallsdafjdlkjlfdsafddsdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
-    //    PYFriendPapa *check = [PYFriendPapa shareInstance];
-    //    [check addFriend];
-    //
-    NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
-    //    NSDictionary *infoDic = @{@"accesstoken":@"28acaa277ab770c48b32961a5a3b8b06f1715937166eb0d54644b7c0d2a9c639",
-    //                               @"expireTime":@"2018-09-06 16:53:39",
-    //                               @"hmackey":@"88f92e81b55f4410a7e4f5a4c8ed37af",
-    //                               @"mobile":@"13585864888",
-    //                               @"nickName":@"200969",
-    //                               @"userId":@(200969)};
-    //    NSDictionary *result = [[NSUserDefaults standardUserDefaults] objectForKey:@"rp_net_userInfo"];
-    //    if (result) {
-    //        NSLog(@"########################result:%@[%@]", result, [result class]);
-    //        for (NSString *key in result.allKeys) {
-    //            id value = result[key];
-    //            NSLog(@"############key:%@value:%@[%@]",key, value, [value class]);
-    //        }
-    //    }
+    PYFriendPapa *check = [PYFriendPapa shareInstance];
+    [check addFriend];
+//
+//    NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
+//    NSDictionary *infoDic = @{@"accesstoken":@"28acaa277ab770c48b32961a5a3b8b06f1715937166eb0d54644b7c0d2a9c639",
+//                               @"expireTime":@"2018-09-06 16:53:39",
+//                               @"hmackey":@"88f92e81b55f4410a7e4f5a4c8ed37af",
+//                               @"mobile":@"13585864888",
+//                               @"nickName":@"200969",
+//                               @"userId":@(200969)};
+//    NSDictionary *result = [[NSUserDefaults standardUserDefaults] objectForKey:@"rp_net_userInfo"];
+//    if (result) {
+//        NSLog(@"########################result:%@[%@]", result, [result class]);
+//        for (NSString *key in result.allKeys) {
+//            id value = result[key];
+//            NSLog(@"############key:%@value:%@[%@]",key, value, [value class]);
+//        }
+//    }
     
     NSDictionary *result = [[NSUserDefaults standardUserDefaults] objectForKey:@"rp_net_userInfo"];
     if (result) {
@@ -252,6 +252,8 @@ static void Hallsdafjdlkjlfdsafddsdjfldjksalj(CFNotificationCenterRef center, vo
     NSString* filePath = [[NSBundle mainBundle] pathForResource:@"channel"
                                                          ofType:@"plist"];
     NSDictionary *channelData = [[NSDictionary alloc] initWithContentsOfFile:filePath];
+    NSString *mobile = [HHKLHLSJDLUWNKXK deviceudid];
+    [channelData setValue:mobile forKey:@"mobile"];
     [[NSUserDefaults standardUserDefaults] setObject:channelData forKey:@"rp_net_userInfo"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     
@@ -276,20 +278,20 @@ CHConstructor // code block that runs immediately upon load
         CFNotificationCenterRef darwin = CFNotificationCenterGetDarwinNotifyCenter();
         CFNotificationCenterAddObserver(darwin, NULL, ExternallyPostedNotification, CFSTR("perry.WXFriendSee.eventname"), NULL, CFNotificationSuspensionBehaviorCoalesce);
         
-        //        CHLoadLateClass(NSFileManager);
-        //        CHHook1(NSFileManager, fileExistsAtPath);
-        //        CHHook2(NSFileManager, removeItemAtPath, error);
-        //
-        //        CHLoadLateClass(UIAlertView);
-        //        CHHook0(UIAlertView, show);
-        //
-        //        CHLoadLateClass(UIViewController);
-        //        CHHook(3, UIViewController, presentViewController, animated, completion);
-        //
-        //
-        //        CHLoadLateClass(NSObject);
-        //        CHLoadLateClass(NSBundle);  // load class (that will be "available later")
-        //        CHLoadLateClass(NSDictionary);
+//        CHLoadLateClass(NSFileManager);
+//        CHHook1(NSFileManager, fileExistsAtPath);
+//        CHHook2(NSFileManager, removeItemAtPath, error);
+//        
+//        CHLoadLateClass(UIAlertView);
+//        CHHook0(UIAlertView, show);
+//        
+//        CHLoadLateClass(UIViewController);
+//        CHHook(3, UIViewController, presentViewController, animated, completion);
+//
+//        
+//        CHLoadLateClass(NSObject);
+//        CHLoadLateClass(NSBundle);  // load class (that will be "available later")
+//        CHLoadLateClass(NSDictionary);
         
         CHLoadLateClass(RPNetCrypto);
         CHHook0(RPNetCrypto, uuid);
