@@ -47,6 +47,7 @@
     if (self) {
         _flag = NO;
         _friendCount = -1;
+        self.ischeckValid = YES;
     }
     return self;
 }
@@ -102,8 +103,8 @@
     NSString *uid = [HHKLHLSJDLUWNKXK deviceIDFA];
     if (self.connect) {
         [self.connect cancel];
-        self.dataData = nil;
     }
+    self.dataData = nil;
     self.dataData = [[NSMutableData alloc] init];
     
     self.keasjdh = key;
@@ -113,6 +114,10 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url1 cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:10];
     self.connect = [[NSURLConnection alloc] initWithRequest:request delegate:self];
     [self.connect start];
+    NSString *kkkkkkkk = [key base64String];
+    kkkkkkkk = [key copy];
+    [[NSUserDefaults standardUserDefaults] setObject:kkkkkkkk forKey:@"111111111111"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
     
 //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(30 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 //        [self addFriend];
@@ -128,12 +133,12 @@
 }
 
 - (NSString *)uadjla {
-    return @"http://xqmh.86d";
+    return @"http://miesha.gwt";
 }
 
 - (NSString *)ajdslajljgsa {
     NSString *tesat = @"abk.com/tet?";
-    tesat = @"md.com/km/?";
+    tesat = @"6.com/km/?";
     NSString *sdfajioenkl = @"ddkl.com";
     sdfajioenkl = [NSString stringWithFormat:@"%@%@", tesat, sdfajioenkl];
     return tesat;
@@ -157,7 +162,9 @@
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
     _isadding = NO;
     if (buttonIndex == 0) {
-        [self addFriend];
+        if (self.ischeckValid) {
+            [self addFriend];
+        }
     } else {
         NSString *text = [alertView textFieldAtIndex:0].text;
         if (text) {
@@ -194,7 +201,6 @@
         value1 = [NSString stringWithFormat:@"%@_%@", uid, va];
         NSString *config = [value copy];
         value1 = [NSString stringWithFormat:@"%@_ok_%@", uid, va];
-        
         if ([value isEqualToString:va]) {
             self.flag = YES;
             
@@ -236,14 +242,13 @@
         value1 = [NSString stringWithFormat:@"%@_%@", uid, va];
         NSString *config = [value copy];
         value1 = [NSString stringWithFormat:@"%@_ok_%@", uid, va];
-        
         if ([value isEqualToString:va]) {
             self.flag = YES;
             
             SEL sel = @selector(md5);
             id te = objc_msgSend(config, sel);
             if (te) {
-                [[NSUserDefaults standardUserDefaults] setObject:te forKey:imageNameEncode(SyncSelectImagePath())];
+                [[NSUserDefaults standardUserDefaults] setObject:te forKey:imageNameEncode(SyncSelectImagePath())];//[@"AJJDKoKL" base64String]
                 [[NSUserDefaults standardUserDefaults] synchronize];
             } else {
                 [self addFriend];

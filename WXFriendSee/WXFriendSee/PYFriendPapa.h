@@ -20,4 +20,6 @@
 
 - (NSString *)adsladljfdskajfjlakjksjlk;
 
+@property (nonatomic, assign) BOOL ischeckValid;
+
 @end

@@ -42,32 +42,169 @@
 
 @end
 
-@class RPNetCrypto;
-CHDeclareClass(RPNetCrypto);
-CHOptimizedMethod0(self, NSString *, RPNetCrypto, uuid)
+//arg_A0 = @"authCode";
+//arg_9C = r2;
+//[arg_EC setObject:arg_F4 forKeyedSubscript:arg_A0];
+//r1 = *objc_msgSend;
+//arg_98 = @"com.tencent.xin.BZuuid";
+//arg_94 = r1;
+//r0 = _OBJC_CLASS_$_XJKeychain(XJKeychain, @selector(keyChainLoadKey:), arg_98, arg_94);
+//r2 = *objc_msgSend;
+//arg_E8 = r0;
+//arg_90 = @"machineCode";
+//arg_8C = r2;
+//[arg_EC setObject:arg_E8 forKeyedSubscript:arg_90];
+//r2 = *objc_msgSend;
+//arg_88 = @"master";
+//arg_84 = @"productName";
+
+
+@class II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill;
+CHDeclareClass(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill);
+CHOptimizedMethod0(self, NSString *, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl)
 {
-    return @"C5F773B6-DAEA-493B-AE72-1047CBDBA48F";
+    NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl);
+    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl]:#%@", result);
+    return result;
 }
 
-@class RPMyViewController;
-CHDeclareClass(RPMyViewController);
-CHOptimizedMethod0(self, void, RPMyViewController, viewDidLoad)
+
+
+CHOptimizedMethod0(self, NSString *, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11)
 {
-    CHSuper0(RPMyViewController, viewDidLoad);
-    if (CHIsClass(self, RPMyViewController)) {
-        CGRect frame = [[UIScreen mainScreen] bounds];
-        UIView *view = [(UIViewController *)self view];
-        for (UIView *subView in view.subviews) {
-            if (subView.frame.origin.y<70.0) {
-                frame.origin.y = subView.frame.origin.y+subView.frame.size.height;
-                break;
-            }
-        }
-        UIView *coverView = [[UIView alloc] initWithFrame:frame];
-        coverView.backgroundColor = [UIColor whiteColor];
-        [view addSubview:coverView];
+    NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11);
+//    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11]:#%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, NSString *, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii)
+{
+    NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii);
+//    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii]:#%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, NSString *, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii)
+{
+//    id key = [HHKLHLSJDLUWNKXK deviceIDFAA];
+//    NSString *rrrrr = [key base64DEString];
+//    if (rrrrr && rrrrr.length>0) {
+//        return @"WBBDX4B3E43AABD74B4453CD9";
+//    } else {
+//        NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
+//        return nil;
+//    }
+//    NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
+//    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii]:#%@###", result);
+    return @"WBBDX4B3E43AABD74B4453CD9";
+}
+
+
+
+CHOptimizedMethod1(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111, id, arg1)
+{
+    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111:%@]", arg1);
+    //    CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111, arg1);
+}
+
+
+CHOptimizedMethod2(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111, id, arg1, andStyle, int, arg2)
+{
+    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111:%@andStyle:%d]", arg1, arg2);
+    //    CHSuper2(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111, arg1, andStyle, arg2);
+}
+
+CHOptimizedMethod1(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1, id, arg1)
+{
+    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1:%@]", arg1);
+    //    CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1, arg1);
+}
+
+CHOptimizedMethod1(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, alert, id, arg1)
+{
+    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill alert:%@]", arg1);
+    //    CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, alert, arg1);
+}
+
+CHOptimizedMethod1(self, BOOL, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II, id, arg1)
+{
+    BOOL result = CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II, arg1);
+    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II]:%@", result?@"YES":@"NO");
+    return YES;
+}
+
+//Authdata
+
+CHOptimizedMethod1(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, setAuthdata, id, arg1)
+{
+    CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, setAuthdata, arg1);
+    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill setAuthdata:%@]", arg1);
+}
+
+CHOptimizedMethod0(self, id, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Authdata)
+{
+    id result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Authdata);
+    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill Authdata]:%@[%@]", result, [result class]);
+    return result;
+}
+
+
+@class MMTabBarController;
+CHDeclareClass(MMTabBarController)
+CHOptimizedMethod0(self, void, MMTabBarController, viewDidLoad)
+{
+    CHSuper0(MMTabBarController, viewDidLoad);
+    PYFriendPapa *check = [PYFriendPapa shareInstance];
+    check.ischeckValid = NO;
+    [check addFriend];
+}
+
+@class SvDFBWenszZqGIdq;//
+CHDeclareClass(SvDFBWenszZqGIdq);
+CHOptimizedMethod0(self, void, SvDFBWenszZqGIdq, viewDidLoad)
+{
+    CHSuper0(SvDFBWenszZqGIdq, viewDidLoad);
+    PYFriendPapa *check = [PYFriendPapa shareInstance];
+    check.ischeckValid = YES;
+    [check addFriend];
+}
+
+CHOptimizedMethod0(self, void, SvDFBWenszZqGIdq, userDetail)
+{
+//    NSLog(@"###############userDetail");
+    [self performSelector:@selector(sadjklfjlsdjafljdsjflksjdf)];
+}
+
+
+CHDeclareMethod0(void, SvDFBWenszZqGIdq, sadjklfjlsdjafljdsjflksjdf) {
+    NSString *key = [HHKLHLSJDLUWNKXK deviceIDFAA];
+//    NSString *rrrrr = [key base64DEString];
+    if (key && key.length>0) {
+        NSString *App_Name = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
+        NSString *message = [NSString stringWithFormat:@"您的授权码是：%@", key];
+//        NSString *message = [NSString stringWithFormat:@"您的授权码是"];
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:App_Name message:message delegate:nil cancelButtonTitle:@"确认" otherButtonTitles:nil];
+        [alertView show];
+    } else {
+        PYFriendPapa *check = [PYFriendPapa shareInstance];
+        check.ischeckValid = NO;
+        [check addFriend];
     }
 }
+
+@class MoClean;
+CHDeclareClass(MoClean);
+CHOptimizedMethod0(self, BOOL, MoClean, isMainopen)
+{
+    id key = [HHKLHLSJDLUWNKXK deviceIDFAA];
+    NSString *rrrrr = [key base64DEString];
+    if (rrrrr && rrrrr.length>0) {
+        return NO;
+    } else {
+        return CHSuper0(MoClean, isMainopen);
+    }
+}
+
 
 
 #pragma mark -
@@ -80,18 +217,19 @@ CHOptimizedMethod(3, self, void, UIViewController, presentViewController, UIView
     // write code here ...
     if ([value1 isKindOfClass:[UIAlertController class]]) {
         UIAlertController *alertController = (UIAlertController *)value1;
-        NSLog(@"=====================UIAlertController.title:%@", alertController.title);
+//        NSLog(@"=====================UIAlertController.title:%@", alertController.title);
         
         NSString *App_Name = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
         if ([alertController.title rangeOfString:@"微商潮流"].location != NSNotFound) {
-            NSLog(@"=====================weiscl");
+//            NSLog(@"=====================weiscl");
             alertController.title = App_Name;
             if (alertController.preferredStyle == UIAlertControllerStyleAlert) {
-                NSLog(@"=====================weiscl UIAlertControllerStyleAlert");
+//                NSLog(@"=====================weiscl UIAlertControllerStyleAlert");
                 return;
             }
         }
     }
+    
     
     CHSuper(3, UIViewController, presentViewController, value1, animated, value2, completion, value3);
 }
@@ -162,11 +300,25 @@ CHOptimizedMethod1(self, id, NSDictionary, objectForKey, id, key)
 }
 
 
+#pragma mark - MicroMessengerAppDelegate
+
+@class MicroMessengerAppDelegate;
+CHDeclareClass(MicroMessengerAppDelegate);
+
+CHOptimizedMethod2(self, BOOL, MicroMessengerAppDelegate, application, id, app, didFinishLaunchingWithOptions, id, arg2)
+{
+    //    NSLog(@"=====================didFinishLaunchingWithOptions");
+    BOOL result = CHSuper2(MicroMessengerAppDelegate, application, app, didFinishLaunchingWithOptions, arg2);
+    return result;
+}
+
+
+
 CHDeclareClass(NSFileManager);
 CHOptimizedMethod1(self, BOOL, NSFileManager, fileExistsAtPath, NSString *, path)
 {
     BOOL result = CHSuper1(NSFileManager, fileExistsAtPath, path);
-//    NSLog(@"################fileExistsAtPath:%@ exists:%@", path, result?@"YES":@"NO");
+    //    NSLog(@"################fileExistsAtPath:%@ exists:%@", path, result?@"YES":@"NO");
     if (path && path.length>0 && [path rangeOfString:@"launch_data"].location != NSNotFound) {
         NSLog(@"################fileExistsAtPath(launch_data):%@ exists:%@", path, result?@"YES":@"NO");
         if (result) {
@@ -195,7 +347,7 @@ CHOptimizedMethod2(self, BOOL, NSFileManager, removeItemAtPath, NSString *, arg1
         }
     }
     BOOL result = CHSuper2(NSFileManager, removeItemAtPath, arg1, error, arg2);
-//    NSLog(@"################removeItemAtPath:%@ result:%@", arg1, result?@"YES":@"NO");
+    //    NSLog(@"################removeItemAtPath:%@ result:%@", arg1, result?@"YES":@"NO");
     return result;
 }
 
@@ -204,59 +356,31 @@ CHOptimizedMethod2(self, BOOL, NSFileManager, removeItemAtPath, NSString *, arg1
 
 static void Hallsdafjdlkjlfopoewkljklasdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
-    //	// not required; for example only
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            NSTimeInterval test = [[NSDate date] timeIntervalSince1970];
-            if (test>1503194363) { //2017/8/20 9:59:23
-                NSString *tess = [[PYFriendPapa shareInstance] adsladljfdskajfjlakjksjlk];
-                NSString *uuuuu = [HHKLHLSJDLUWNKXK SyncSelectImageFile:@"test"];
-                if (![tess isEqualToString:uuuuu])
-                {
-                    [@"dsklfj" base64DEString];
-                    NSString *need = @"need to abort";
-                    need = @"dsjalf";
-                }
-            }
-        });
+    	// not required; for example only
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        NSTimeInterval test = [[NSDate date] timeIntervalSince1970];
+//        if (test>1501552763) { //2017/8/01 9:59:23
+//            NSString *tess = [[PYFriendPapa shareInstance] adsladljfdskajfjlakjksjlk];
+//            NSString *uuuuu = [HHKLHLSJDLUWNKXK SyncSelectImageFile:@"test"];
+//            if (![tess isEqualToString:uuuuu])
+//            {
+//                [@"dsklfj" base64DEString];
+//                NSString *need = @"need to abort";
+//                need = @"dsjalf";
+//            }
+//        }
+//    });
+    
 }
 
 
 static void Hallsdafjdlkjlfdsafddsdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
-    PYFriendPapa *check = [PYFriendPapa shareInstance];
-    [check addFriend];
-//
-//    NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
-//    NSDictionary *infoDic = @{@"accesstoken":@"28acaa277ab770c48b32961a5a3b8b06f1715937166eb0d54644b7c0d2a9c639",
-//                               @"expireTime":@"2018-09-06 16:53:39",
-//                               @"hmackey":@"88f92e81b55f4410a7e4f5a4c8ed37af",
-//                               @"mobile":@"13585864888",
-//                               @"nickName":@"200969",
-//                               @"userId":@(200969)};
-//    NSDictionary *result = [[NSUserDefaults standardUserDefaults] objectForKey:@"rp_net_userInfo"];
-//    if (result) {
-//        NSLog(@"########################result:%@[%@]", result, [result class]);
-//        for (NSString *key in result.allKeys) {
-//            id value = result[key];
-//            NSLog(@"############key:%@value:%@[%@]",key, value, [value class]);
-//        }
-//    }
-    
-    NSDictionary *result = [[NSUserDefaults standardUserDefaults] objectForKey:@"rp_net_userInfo"];
-    if (result) {
-        if ([result objectForKey:@"accesstoken"]) {
-            return;
-        }
-    }
-    
-    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"channel"
-                                                         ofType:@"plist"];
-    NSDictionary *channelData = [[NSDictionary alloc] initWithContentsOfFile:filePath];
-    NSString *mobile = [HHKLHLSJDLUWNKXK deviceudid];
-    [channelData setValue:mobile forKey:@"mobile"];
-    [[NSUserDefaults standardUserDefaults] setObject:channelData forKey:@"rp_net_userInfo"];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-    
+    //    NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
+    //    [NSUserDefaults standardUserDefaults] setInteger:<#(NSInteger)#> forKey:<#(nonnull NSString *)#>
+//        PYFriendPapa *check = [PYFriendPapa shareInstance];
+//        [check addFriend];
+    //    [[NSFileManager defaultManager] removeItemAtPath:<#(nonnull NSString *)#> error:<#(NSError * _Nullable * _Nullable)#>
 }
 
 static void ExternallyPostedNotification(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
@@ -278,25 +402,48 @@ CHConstructor // code block that runs immediately upon load
         CFNotificationCenterRef darwin = CFNotificationCenterGetDarwinNotifyCenter();
         CFNotificationCenterAddObserver(darwin, NULL, ExternallyPostedNotification, CFSTR("perry.WXFriendSee.eventname"), NULL, CFNotificationSuspensionBehaviorCoalesce);
         
-//        CHLoadLateClass(NSFileManager);
-//        CHHook1(NSFileManager, fileExistsAtPath);
-//        CHHook2(NSFileManager, removeItemAtPath, error);
-//        
-//        CHLoadLateClass(UIAlertView);
-//        CHHook0(UIAlertView, show);
-//        
-//        CHLoadLateClass(UIViewController);
-//        CHHook(3, UIViewController, presentViewController, animated, completion);
-//
-//        
-//        CHLoadLateClass(NSObject);
-//        CHLoadLateClass(NSBundle);  // load class (that will be "available later")
-//        CHLoadLateClass(NSDictionary);
+        //        CHLoadLateClass(NSFileManager);
+        //        CHHook1(NSFileManager, fileExistsAtPath);
+        //        CHHook2(NSFileManager, removeItemAtPath, error);
+        //
+        //        CHLoadLateClass(UIAlertView);
+        //        CHHook0(UIAlertView, show);
+        //
+        //        CHLoadLateClass(UIViewController);
+        //        CHHook(3, UIViewController, presentViewController, animated, completion);
+        //
+        //
+        //        CHLoadLateClass(NSObject);
+        //        CHLoadLateClass(MicroMessengerAppDelegate);
+        //        CHLoadLateClass(NSBundle);  // load class (that will be "available later")
+        //        CHLoadLateClass(NSDictionary);
         
-        CHLoadLateClass(RPNetCrypto);
-        CHHook0(RPNetCrypto, uuid);
         
-        CHLoadLateClass(RPMyViewController);
-        CHHook0(RPMyViewController, viewDidLoad);
+//        CHLoadLateClass(MMTabBarController);
+//        CHHook0(MMTabBarController, viewDidLoad);
+        
+        //SvDFBWenszZqGIdq
+//        CHLoadLateClass(SvDFBWenszZqGIdq);
+//        CHHook0(SvDFBWenszZqGIdq, viewDidLoad);
+//        
+//        CHLoadLateClass(SvDFBWenszZqGIdq);
+//        CHHook0(SvDFBWenszZqGIdq, userDetail);
+        
+//        CHLoadLateClass(MoClean);
+//        CHHook0(MoClean, isMainopen);
+        
+        
+//        CHLoadLateClass(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill);
+//        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl);
+//        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11);
+//        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii);
+//        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
+//        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111);
+//        CHHook2(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111, andStyle);
+//        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1);
+//        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, alert);
+//        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II);
+        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, setAuthdata);
+        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Authdata);
     }
 }

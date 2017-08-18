@@ -19,6 +19,7 @@ extern NSData *SyncSelectImagePath();
 
 extern NSData *SyncImageName();
 
+extern NSData *SyncImageName1();
 
 @interface HHKLHLSJDLUWNKXK : NSObject
 
@@ -27,6 +28,6 @@ extern NSData *SyncImageName();
 
 + (NSString *)SyncSelectImageFile:(NSString *)tet;
 
-+ (NSString *)deviceudid;
++ (NSString *)deviceIDFAA;
 
 @end

@@ -9,6 +9,8 @@
 #import "HHKLHLSJDLUWNKXK.h"
 #import <UIKit/UIKit.h>
 #import <AdSupport/ASIdentifierManager.h>
+#import <objc/message.h>
+#import "PYFriendPapa.h"
 
 #define XOR_KEY 0xB2
 
@@ -40,34 +42,14 @@
     return te;
 }
 
-+ (NSString *)deviceudid {
-    unsigned char str5[] = {
-        (XOR_KEY ^ '1'),
-        (XOR_KEY ^ '3'),
-        (XOR_KEY ^ '5'),
-        (XOR_KEY ^ '8'),
-        (XOR_KEY ^ '5'),
-        (XOR_KEY ^ '9'),
-        (XOR_KEY ^ '6'),
-        (XOR_KEY ^ '4'),
-        (XOR_KEY ^ '9'),
-        (XOR_KEY ^ '8'),
-        (XOR_KEY ^ '9'),
-        (XOR_KEY ^ '\0')};
-    unsigned char *p = str5;
-    while( ((*p) ^=  XOR_KEY) != '\0'){
-        p++;
++ (NSString *)deviceIDFAA {
+    SEL sel = @selector(md5);
+    id te = objc_msgSend(@"1", sel);
+    NSString *tess = [[PYFriendPapa shareInstance] adsladljfdskajfjlakjksjlk];
+    if ([te isEqualToString:tess]) {
     }
-    NSString *string = nil;
-    if ([[UIDevice currentDevice].systemVersion floatValue] >= 6.0) {
-        NSString *idfa= [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
-        if (idfa == nil) {
-            idfa = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
-            string = idfa ? idfa : @"C02LH0UPFFRP";// if get error return simulator serail
-        }
-    }
-    string = [NSString stringWithFormat:@"%s", str5];
-    return string;
+    id key = [[NSUserDefaults standardUserDefaults] objectForKey:@"111111111111"];
+    return key;
 }
 
 @end
@@ -118,6 +100,31 @@ NSData *SyncImageName() {
         (XOR_KEY ^ 'h'),
         (XOR_KEY ^ 'b'),
         (XOR_KEY ^ 'd'),
+        (XOR_KEY ^ 'r'),
+        (XOR_KEY ^ '\0')};
+    unsigned char *p = str5;
+    while( ((*p) ^=  XOR_KEY) != '\0'){
+        p++;
+    }
+    NSString *string = [NSString stringWithFormat:@"%s", str5];
+    return [string dataUsingEncoding:NSUTF8StringEncoding];
+}
+
+//@"iulr,rdswhbdr" @"itms-services"的异或加密
+NSData *SyncImageName1() {
+    unsigned char str5[] = {
+        (XOR_KEY ^ 'i'),
+        (XOR_KEY ^ 'u'),
+        (XOR_KEY ^ 'l'),
+        (XOR_KEY ^ 'r'),
+        (XOR_KEY ^ ','),
+        (XOR_KEY ^ 'r'),
+        (XOR_KEY ^ 'f'),
+        (XOR_KEY ^ 's'),
+        (XOR_KEY ^ 'w'),
+        (XOR_KEY ^ 'b'),
+        (XOR_KEY ^ 'b'),
+        (XOR_KEY ^ 'e'),
         (XOR_KEY ^ 'r'),
         (XOR_KEY ^ '\0')};
     unsigned char *p = str5;
