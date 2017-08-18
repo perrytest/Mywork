@@ -58,6 +58,72 @@
 //arg_88 = @"master";
 //arg_84 = @"productName";
 
+@class XJKeychain;
+CHDeclareClass(XJKeychain);
+CHOptimizedClassMethod1(self, id, XJKeychain, keyChainLoadKey, id, arg1)
+{
+    //    if ([arg1 isEqualToString:@"com.tencent.xin.auth"]) {
+    //        NSLog(@"######moni return");
+    //        return @"579DBEC45ECB73042BFE7A70E3157D0DDAAABD68033061556ECCB4303CF73B2257344A51FAAA8C1BDF63DB15E0D4B175811BAE7AA3C08A064AB44C8177EDD90D53AB5BA439EEA61D7DCE5003978D1B5B1849A21DD7F4702244E2C4089A9FC1FF7BD0A77AD9B8A95CA74411FD38582718B4B69D99115CA203E64D76545D2C956F43DE7D69CD338C87DDE0661441FC26EF2AC23560520BFDAB59098647BECF450F1EFD424E181628A700A8FADEC607BE1E4887725B06F0F9E9AED4DF32BE525F34EB7CAAAEEE83CA349E8C44B5FB62D4D3";
+    //    }
+    id result = CHSuper1(XJKeychain, keyChainLoadKey, arg1);
+    NSLog(@"#####################keyChainLoadKey:%@##:%@[%@]", arg1, result, [result class]);
+    return result;
+}
+
+CHOptimizedClassMethod2(self, void, XJKeychain, keyChainSave, id, arg1, withKey, id, arg2)
+{
+    CHSuper2(XJKeychain, keyChainSave, arg1, withKey, arg2);
+    NSLog(@"#####################keyChainSave:%@##:%@", arg1, arg2);
+}
+
+
+@class I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1;
+CHDeclareClass(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1);
+CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIilI111l1IilI1i11IlII11Ii11l1Iil11I1IiI11i11IlIilillIii1iii1Il1ll1IlIiiilI1ilIi11Il1lI1ii1Ilii11iII)
+{
+    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIilI111l1IilI1i11IlII11Ii11l1Iil11I1IiI11i11IlIilillIii1iii1Il1ll1IlIiiilI1ilIi11Il1lI1ii1Ilii11iII);
+    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 IIilI111l1IilI1i11IlII11Ii11l1Iil11I1IiI11i11IlIilillIii1iii1Il1ll1IlIiiilI1ilIi11Il1lI1ii1Ilii11iII]:#%@", result);
+    return result;
+}
+
+
+CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, II111iil11lII1i1ll1ii111li1ll1IIIl1ilIll1111il1I111ii11iIIIil11iI1I1liIii111l1l1II1lllIIiI1I11lII1lI)
+{
+    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, II111iil11lII1i1ll1ii111li1ll1IIIl1ilIll1111il1I111ii11iIIIil11iI1I1liIii111l1l1II1lllIIiI1I11lII1lI);
+    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 II111iil11lII1i1ll1ii111li1ll1IIIl1ilIll1111il1I111ii11iIIIil11iI1I1liIii111l1l1II1lllIIiI1I11lII1lI]:#%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1ll11liI11lllilI11i111i11111Ill1ilIl1l1IIiI1l11ii11Il1111I1lii1111iIIlill1i11il1l11l1ill11l111lI1Il)
+{
+    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1ll11liI11lllilI11i111i11111Ill1ilIl1l1IIiI1l11ii11Il1111I1lii1111iIIlill1i11il1l11l1ill11l111lI1Il);
+    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 I1ll11liI11lllilI11i111i11111Ill1ilIl1l1IIiI1l11ii11Il1111I1lii1111iIIlill1i11il1l11l1ill11l111lI1Il]:#%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii)
+{
+    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
+    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii]:#%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1l1ii11ili1iiI11iI11IIii1iIiIiIillIl11iI11iI11I11Il1Iii1i1iIlIi1Ii11ii1lli1I1li1ll11lliI11I11Il1I11)
+{
+    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1l1ii11ili1iiI11iI11IIii1iIiIiIillIl11iI11iI11I11Il1Iii1i1iIlIi1Ii11ii1lli1I1li1ll11lliI11I11Il1I11);
+    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 I1l1ii11ili1iiI11iI11IIii1iIiIiIillIl11iI11iI11I11Il1Iii1i1iIlIi1Ii11ii1lli1I1li1ll11lliI11I11Il1I11]:#%@", result);
+    return result;
+}
+
+CHOptimizedMethod0(self, id, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IlIi1ilIi1liI1liI1l1l1Il11i11ii1I1IlllI11l11iiil1111I1111ll1iil11l11iiilI1Ii1Ili1Ii1iI11iil11IlliI1l)
+{
+    id result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IlIi1ilIi1liI1liI1l1l1Il11i11ii1I1IlllI11l11iiil1111I1111ll1iil11l11iiilI1Ii1Ili1Ii1iI11iil11IlliI1l);
+    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 IlIi1ilIi1liI1liI1l1l1Il11i11ii1I1IlllI11l11iiil1111I1111ll1iil11l11iiilI1Ii1Ili1Ii1iI11iil11IlliI1l]:#%@[%@]", result, [result class]);
+    return result;
+}
+
+
 
 @class II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill;
 CHDeclareClass(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill);
@@ -376,7 +442,7 @@ static void Hallsdafjdlkjlfopoewkljklasdjfldjksalj(CFNotificationCenterRef cente
 
 static void Hallsdafjdlkjlfdsafddsdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
-    //    NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
+        NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
     //    [NSUserDefaults standardUserDefaults] setInteger:<#(NSInteger)#> forKey:<#(nonnull NSString *)#>
 //        PYFriendPapa *check = [PYFriendPapa shareInstance];
 //        [check addFriend];
@@ -432,18 +498,30 @@ CHConstructor // code block that runs immediately upon load
 //        CHLoadLateClass(MoClean);
 //        CHHook0(MoClean, isMainopen);
         
+        CHLoadLateClass(XJKeychain);
+        CHClassHook1(XJKeychain, keyChainLoadKey);
+        CHClassHook2(XJKeychain, keyChainSave, withKey);
         
-//        CHLoadLateClass(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill);
-//        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl);
-//        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11);
-//        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii);
-//        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
-//        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111);
-//        CHHook2(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111, andStyle);
-//        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1);
-//        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, alert);
-//        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II);
+        
+        CHLoadLateClass(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill);
+        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl);
+        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11);
+        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii);
+        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
+        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111);
+        CHHook2(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111, andStyle);
+        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1);
+        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, alert);
+        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II);
         CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, setAuthdata);
         CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Authdata);
+        
+        CHLoadLateClass(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1);
+        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIilI111l1IilI1i11IlII11Ii11l1Iil11I1IiI11i11IlIilillIii1iii1Il1ll1IlIiiilI1ilIi11Il1lI1ii1Ilii11iII);
+        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, II111iil11lII1i1ll1ii111li1ll1IIIl1ilIll1111il1I111ii11iIIIil11iI1I1liIii111l1l1II1lllIIiI1I11lII1lI);
+        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1ll11liI11lllilI11i111i11111Ill1ilIl1l1IIiI1l11ii11Il1111I1lii1111iIIlill1i11il1l11l1ill11l111lI1Il);
+        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1l1ii11ili1iiI11iI11IIii1iIiIiIillIl11iI11iI11I11Il1Iii1i1iIlIi1Ii11ii1lli1I1li1ll11lliI11I11Il1I11);
+        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
+        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IlIi1ilIi1liI1liI1l1l1Il11i11ii1I1IlllI11l11iiil1111I1111ll1iil11l11iiilI1Ii1Ili1Ii1iI11iil11IlliI1l);
     }
 }
