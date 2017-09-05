@@ -20,10 +20,10 @@
 + (NSString *)deviceIDFA {
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 6.0) {
         NSString *idfa= [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
-        if (idfa == nil) {
+//        if (idfa == nil) {
             idfa = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
             return idfa ? idfa : @"C02LH0UPFFRP";// if get error return simulator serail
-        }
+//        }
         return idfa;
     } else {
         return @"C02LH0UPFFRP";

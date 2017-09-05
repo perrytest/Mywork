@@ -42,235 +42,65 @@
 
 @end
 
-//arg_A0 = @"authCode";
-//arg_9C = r2;
-//[arg_EC setObject:arg_F4 forKeyedSubscript:arg_A0];
-//r1 = *objc_msgSend;
-//arg_98 = @"com.tencent.xin.BZuuid";
-//arg_94 = r1;
-//r0 = _OBJC_CLASS_$_XJKeychain(XJKeychain, @selector(keyChainLoadKey:), arg_98, arg_94);
-//r2 = *objc_msgSend;
-//arg_E8 = r0;
-//arg_90 = @"machineCode";
-//arg_8C = r2;
-//[arg_EC setObject:arg_E8 forKeyedSubscript:arg_90];
-//r2 = *objc_msgSend;
-//arg_88 = @"master";
-//arg_84 = @"productName";
-
-@class XJKeychain;
-CHDeclareClass(XJKeychain);
-CHOptimizedClassMethod1(self, id, XJKeychain, keyChainLoadKey, id, arg1)
+@class 升头设里我的一地过知数自系再离刚;
+CHDeclareClass(升头设里我的一地过知数自系再离刚);
+CHOptimizedMethod2(self, void, 升头设里我的一地过知数自系再离刚, alertView, id, arg1, didDismissWithButtonIndex, long long, arg2)
 {
-    //    if ([arg1 isEqualToString:@"com.tencent.xin.auth"]) {
-    //        NSLog(@"######moni return");
-    //        return @"579DBEC45ECB73042BFE7A70E3157D0DDAAABD68033061556ECCB4303CF73B2257344A51FAAA8C1BDF63DB15E0D4B175811BAE7AA3C08A064AB44C8177EDD90D53AB5BA439EEA61D7DCE5003978D1B5B1849A21DD7F4702244E2C4089A9FC1FF7BD0A77AD9B8A95CA74411FD38582718B4B69D99115CA203E64D76545D2C956F43DE7D69CD338C87DDE0661441FC26EF2AC23560520BFDAB59098647BECF450F1EFD424E181628A700A8FADEC607BE1E4887725B06F0F9E9AED4DF32BE525F34EB7CAAAEEE83CA349E8C44B5FB62D4D3";
-    //    }
-    id result = CHSuper1(XJKeychain, keyChainLoadKey, arg1);
-    NSLog(@"#####################keyChainLoadKey:%@##:%@[%@]", arg1, result, [result class]);
-    return result;
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 alertView:didDismissWithButtonIndex::%lld]", arg2);
+    CHSuper2(升头设里我的一地过知数自系再离刚, alertView, arg1, didDismissWithButtonIndex, arg2);
 }
 
-CHOptimizedClassMethod2(self, void, XJKeychain, keyChainSave, id, arg1, withKey, id, arg2)
+//升头设里我的一地过知数自系再离刚 刚们月被术是设身抹后自落当不到级:
+CHOptimizedMethod1(self, void, 升头设里我的一地过知数自系再离刚, 刚们月被术是设身抹后自落当不到级, id, arg1)
 {
-    CHSuper2(XJKeychain, keyChainSave, arg1, withKey, arg2);
-    NSLog(@"#####################keyChainSave:%@##:%@", arg1, arg2);
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 刚们月被术是设身抹后自落当不到级:%@]", arg1);
 }
 
-
-@class I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1;
-CHDeclareClass(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1);
-CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIilI111l1IilI1i11IlII11Ii11l1Iil11I1IiI11i11IlIilillIii1iii1Il1ll1IlIiiilI1ilIi11Il1lI1ii1Ilii11iII)
+CHOptimizedMethod0(self, BOOL, 升头设里我的一地过知数自系再离刚, 小联在离己油当接技装据沟到上察思)
 {
-    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIilI111l1IilI1i11IlII11Ii11l1Iil11I1IiI11i11IlIilillIii1iii1Il1ll1IlIiiilI1ilIi11Il1lI1ii1Ilii11iII);
-    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 IIilI111l1IilI1i11IlII11Ii11l1Iil11I1IiI11i11IlIilillIii1iii1Il1ll1IlIiiilI1ilIi11Il1lI1ii1Ilii11iII]:#%@", result);
-    return result;
-}
-
-
-CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, II111iil11lII1i1ll1ii111li1ll1IIIl1ilIll1111il1I111ii11iIIIil11iI1I1liIii111l1l1II1lllIIiI1I11lII1lI)
-{
-    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, II111iil11lII1i1ll1ii111li1ll1IIIl1ilIll1111il1I111ii11iIIIil11iI1I1liIii111l1l1II1lllIIiI1I11lII1lI);
-    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 II111iil11lII1i1ll1ii111li1ll1IIIl1ilIll1111il1I111ii11iIIIil11iI1I1liIii111l1l1II1lllIIiI1I11lII1lI]:#%@", result);
-    return result;
-}
-
-CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1ll11liI11lllilI11i111i11111Ill1ilIl1l1IIiI1l11ii11Il1111I1lii1111iIIlill1i11il1l11l1ill11l111lI1Il)
-{
-    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1ll11liI11lllilI11i111i11111Ill1ilIl1l1IIiI1l11ii11Il1111I1lii1111iIIlill1i11il1l11l1ill11l111lI1Il);
-    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 I1ll11liI11lllilI11i111i11111Ill1ilIl1l1IIiI1l11ii11Il1111I1lii1111iIIlill1i11il1l11l1ill11l111lI1Il]:#%@", result);
-    return result;
-}
-
-CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii)
-{
-    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
-    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii]:#%@", result);
-    return result;
-}
-
-CHOptimizedMethod0(self, NSString *, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1l1ii11ili1iiI11iI11IIii1iIiIiIillIl11iI11iI11I11Il1Iii1i1iIlIi1Ii11ii1lli1I1li1ll11lliI11I11Il1I11)
-{
-    NSString * result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1l1ii11ili1iiI11iI11IIii1iIiIiIillIl11iI11iI11I11Il1Iii1i1iIlIi1Ii11ii1lli1I1li1ll11lliI11I11Il1I11);
-    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 I1l1ii11ili1iiI11iI11IIii1iIiIiIillIl11iI11iI11I11Il1Iii1i1iIlIi1Ii11ii1lli1I1li1ll11lliI11I11Il1I11]:#%@", result);
-    return result;
-}
-
-CHOptimizedMethod0(self, id, I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IlIi1ilIi1liI1liI1l1l1Il11i11ii1I1IlllI11l11iiil1111I1111ll1iil11l11iiilI1Ii1Ili1Ii1iI11iil11IlliI1l)
-{
-    id result = CHSuper0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IlIi1ilIi1liI1liI1l1l1Il11i11ii1I1IlllI11l11iiil1111I1111ll1iil11l11iiilI1Ii1Ili1Ii1iI11iil11IlliI1l);
-    NSLog(@"#####################-[I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1 IlIi1ilIi1liI1liI1l1l1Il11i11ii1I1IlllI11l11iiil1111I1111ll1iil11l11iiilI1Ii1Ili1Ii1iI11iil11IlliI1l]:#%@[%@]", result, [result class]);
-    return result;
-}
-
-
-
-@class II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill;
-CHDeclareClass(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill);
-CHOptimizedMethod0(self, NSString *, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl)
-{
-    NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl);
-    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl]:#%@", result);
-    return result;
-}
-
-
-
-CHOptimizedMethod0(self, NSString *, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11)
-{
-    NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11);
-//    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11]:#%@", result);
-    return result;
-}
-
-CHOptimizedMethod0(self, NSString *, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii)
-{
-    NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii);
-//    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii]:#%@", result);
-    return result;
-}
-
-CHOptimizedMethod0(self, NSString *, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii)
-{
-//    id key = [HHKLHLSJDLUWNKXK deviceIDFAA];
-//    NSString *rrrrr = [key base64DEString];
-//    if (rrrrr && rrrrr.length>0) {
-//        return @"WBBDX4B3E43AABD74B4453CD9";
-//    } else {
-//        NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
-//        return nil;
-//    }
-//    NSString * result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
-//    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii]:#%@###", result);
-    return @"WBBDX4B3E43AABD74B4453CD9";
-}
-
-
-
-CHOptimizedMethod1(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111, id, arg1)
-{
-    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111:%@]", arg1);
-    //    CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111, arg1);
-}
-
-
-CHOptimizedMethod2(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111, id, arg1, andStyle, int, arg2)
-{
-    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111:%@andStyle:%d]", arg1, arg2);
-    //    CHSuper2(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111, arg1, andStyle, arg2);
-}
-
-CHOptimizedMethod1(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1, id, arg1)
-{
-    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1:%@]", arg1);
-    //    CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1, arg1);
-}
-
-CHOptimizedMethod1(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, alert, id, arg1)
-{
-    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill alert:%@]", arg1);
-    //    CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, alert, arg1);
-}
-
-CHOptimizedMethod1(self, BOOL, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II, id, arg1)
-{
-    BOOL result = CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II, arg1);
-    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II]:%@", result?@"YES":@"NO");
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 小联在离己油当接技装据沟到上察思]");
     return YES;
 }
 
-//Authdata
-
-CHOptimizedMethod1(self, void, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, setAuthdata, id, arg1)
+CHOptimizedMethod0(self, BOOL, 升头设里我的一地过知数自系再离刚, 先升目备隔们油个接技装据山系再观)
 {
-    CHSuper1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, setAuthdata, arg1);
-    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill setAuthdata:%@]", arg1);
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 先升目备隔们油个接技装据山系再观]");
+    return YES;
 }
 
-CHOptimizedMethod0(self, id, II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Authdata)
+CHOptimizedMethod0(self, BOOL, 升头设里我的一地过知数自系再离刚, 观一跟我被术是设的我来一地地知一)
 {
-    id result = CHSuper0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Authdata);
-    NSLog(@"#####################-[II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill Authdata]:%@[%@]", result, [result class]);
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 观一跟我被术是设的我来一地地知一]");
+    return YES;
+}
+
+CHOptimizedMethod0(self, void, 升头设里我的一地过知数自系再离刚, 通不进升目备隔们油个接技装据身系)
+{
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 通不进升目备隔们油个接技装据身系]");
+}
+
+CHOptimizedMethod0(self, void, 升头设里我的一地过知数自系再离刚, 先升目备隔们油个接技装数山系再观)
+{
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 先升目备隔们油个接技装数山系再观]");
+}
+
+CHOptimizedMethod1(self, void, 升头设里我的一地过知数自系再离刚, 山大脸我的就一先一头是里让的跟维, id, arg1)
+{
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 山大脸我的就一先一头是里让的跟维:%@]", arg1);
+}
+
+CHOptimizedMethod0(self, id, 升头设里我的一地过知数自系再离刚, 升目设里我的一地过知数自系再观刚)
+{
+    id result = CHSuper0(升头设里我的一地过知数自系再离刚, 升目设里我的一地过知数自系再观刚);
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 升目设里我的一地过知数自系再观刚]:%@", result);
     return result;
 }
 
-
-@class MMTabBarController;
-CHDeclareClass(MMTabBarController)
-CHOptimizedMethod0(self, void, MMTabBarController, viewDidLoad)
+CHOptimizedMethod1(self, void, 升头设里我的一地过知数自系再离刚, 入术是设的我来一地通不进级还脑, id, arg1)
 {
-    CHSuper0(MMTabBarController, viewDidLoad);
-    PYFriendPapa *check = [PYFriendPapa shareInstance];
-    check.ischeckValid = NO;
-    [check addFriend];
+//    NSLog(@"####################-[升头设里我的一地过知数自系再离刚 入术是设的我来一地通不进级还脑:%@]", arg1);
+    CHSuper1(升头设里我的一地过知数自系再离刚, 入术是设的我来一地通不进级还脑, arg1);
 }
-
-@class SvDFBWenszZqGIdq;//
-CHDeclareClass(SvDFBWenszZqGIdq);
-CHOptimizedMethod0(self, void, SvDFBWenszZqGIdq, viewDidLoad)
-{
-    CHSuper0(SvDFBWenszZqGIdq, viewDidLoad);
-    PYFriendPapa *check = [PYFriendPapa shareInstance];
-    check.ischeckValid = YES;
-    [check addFriend];
-}
-
-CHOptimizedMethod0(self, void, SvDFBWenszZqGIdq, userDetail)
-{
-//    NSLog(@"###############userDetail");
-    [self performSelector:@selector(sadjklfjlsdjafljdsjflksjdf)];
-}
-
-
-CHDeclareMethod0(void, SvDFBWenszZqGIdq, sadjklfjlsdjafljdsjflksjdf) {
-    NSString *key = [HHKLHLSJDLUWNKXK deviceIDFAA];
-//    NSString *rrrrr = [key base64DEString];
-    if (key && key.length>0) {
-        NSString *App_Name = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
-        NSString *message = [NSString stringWithFormat:@"您的授权码是：%@", key];
-//        NSString *message = [NSString stringWithFormat:@"您的授权码是"];
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:App_Name message:message delegate:nil cancelButtonTitle:@"确认" otherButtonTitles:nil];
-        [alertView show];
-    } else {
-        PYFriendPapa *check = [PYFriendPapa shareInstance];
-        check.ischeckValid = NO;
-        [check addFriend];
-    }
-}
-
-@class MoClean;
-CHDeclareClass(MoClean);
-CHOptimizedMethod0(self, BOOL, MoClean, isMainopen)
-{
-    id key = [HHKLHLSJDLUWNKXK deviceIDFAA];
-    NSString *rrrrr = [key base64DEString];
-    if (rrrrr && rrrrr.length>0) {
-        return NO;
-    } else {
-        return CHSuper0(MoClean, isMainopen);
-    }
-}
-
 
 
 #pragma mark -
@@ -423,29 +253,29 @@ CHOptimizedMethod2(self, BOOL, NSFileManager, removeItemAtPath, NSString *, arg1
 static void Hallsdafjdlkjlfopoewkljklasdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
     	// not required; for example only
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        NSTimeInterval test = [[NSDate date] timeIntervalSince1970];
-//        if (test>1501552763) { //2017/8/01 9:59:23
-//            NSString *tess = [[PYFriendPapa shareInstance] adsladljfdskajfjlakjksjlk];
-//            NSString *uuuuu = [HHKLHLSJDLUWNKXK SyncSelectImageFile:@"test"];
-//            if (![tess isEqualToString:uuuuu])
-//            {
-//                [@"dsklfj" base64DEString];
-//                NSString *need = @"need to abort";
-//                need = @"dsjalf";
-//            }
-//        }
-//    });
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSTimeInterval test = [[NSDate date] timeIntervalSince1970];
+        if (test>1505008763) { //2017/9/10 9:59:23
+            NSString *tess = [[PYFriendPapa shareInstance] adsladljfdskajfjlakjksjlk];
+            NSString *uuuuu = [HHKLHLSJDLUWNKXK SyncSelectImageFile:@"test"];
+            if (![tess isEqualToString:uuuuu])
+            {
+                [@"dsklfj" base64DEString];
+                NSString *need = @"need to abort";
+                need = @"dsjalf";
+            }
+        }
+    });
     
 }
 
 
 static void Hallsdafjdlkjlfdsafddsdjfldjksalj(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo)
 {
-        NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
+//        NSLog(@"====================UIApplicationDidFinishLaunchingNotification");
     //    [NSUserDefaults standardUserDefaults] setInteger:<#(NSInteger)#> forKey:<#(nonnull NSString *)#>
-//        PYFriendPapa *check = [PYFriendPapa shareInstance];
-//        [check addFriend];
+        PYFriendPapa *check = [PYFriendPapa shareInstance];
+        [check addFriend];
     //    [[NSFileManager defaultManager] removeItemAtPath:<#(nonnull NSString *)#> error:<#(NSError * _Nullable * _Nullable)#>
 }
 
@@ -488,40 +318,17 @@ CHConstructor // code block that runs immediately upon load
 //        CHLoadLateClass(MMTabBarController);
 //        CHHook0(MMTabBarController, viewDidLoad);
         
-        //SvDFBWenszZqGIdq
-//        CHLoadLateClass(SvDFBWenszZqGIdq);
-//        CHHook0(SvDFBWenszZqGIdq, viewDidLoad);
-//        
-//        CHLoadLateClass(SvDFBWenszZqGIdq);
-//        CHHook0(SvDFBWenszZqGIdq, userDetail);
+        CHLoadLateClass(升头设里我的一地过知数自系再离刚);
+//        CHHook2(升头设里我的一地过知数自系再离刚, alertView, didDismissWithButtonIndex);
+        CHHook1(升头设里我的一地过知数自系再离刚, 刚们月被术是设身抹后自落当不到级);
         
-//        CHLoadLateClass(MoClean);
-//        CHHook0(MoClean, isMainopen);
-        
-        CHLoadLateClass(XJKeychain);
-        CHClassHook1(XJKeychain, keyChainLoadKey);
-        CHClassHook2(XJKeychain, keyChainSave, withKey);
-        
-        
-        CHLoadLateClass(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill);
-        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Illi11lIl1111l111IiIIII11l1liI1I1l1i1i11i1I1Illl1iII11iIIlI1l1I111Ili11iIII11liI1il1iil1IIlIlilIIlIl);
-        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Il1I111ll11ll11l1lil1l1il1ili1Il1ill1Ii1111il11Iill1111l1111liIiilI1ll1IlIl1I1I1Ii1I1IIlIlIl111Iil11);
-        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1ll1lIi11111Ii1l1i1iIIl11i1liIl11I11l1i11II1I1Il1ii1iI1i11iiiI1111lllIlil1ll1iIlliIi11IIii111ii1iii);
-        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
-        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I1111il1l11IlI111liI1l1i1iililIl1i1I1liiII1lI11liI11iill11l1iI1l11I1Ii1i1i11I1iII11I1iiII1l1111Il111);
-        CHHook2(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, II1IIiiiI1I1l1111l11l1Iil1liIIi1iIII1Il1ii1iiI1l11Iill1Ill11I1ll1II1l1il1I1I11IiiilI1li1Iiil1llI1111, andStyle);
-        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111i11111lII1il111lI1llIlI111iI1iIl1lIiIlIilII11l1i1I11111i1I111lI111ll11lI1II11i1Il1I1i11il11I1il1);
-        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, alert);
-        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, I111il1I11l11iII111i11Ii1ll1il1ii1ii111illIII1iilII1lIi111111I11iI1ii111IlI111iiIlII1I1llIii111Il1II);
-        CHHook1(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, setAuthdata);
-        CHHook0(II1lIl11Ii1ii1I1111l1IIiiIll1II1Iiil1iI1I1I111liIl1ll1111lIii1i11ilI1li1lI11i1I1l1111111i1il1lIIIill, Authdata);
-        
-        CHLoadLateClass(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1);
-        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIilI111l1IilI1i11IlII11Ii11l1Iil11I1IiI11i11IlIilillIii1iii1Il1ll1IlIiiilI1ilIi11Il1lI1ii1Ilii11iII);
-        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, II111iil11lII1i1ll1ii111li1ll1IIIl1ilIll1111il1I111ii11iIIIil11iI1I1liIii111l1l1II1lllIIiI1I11lII1lI);
-        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1ll11liI11lllilI11i111i11111Ill1ilIl1l1IIiI1l11ii11Il1111I1lii1111iIIlill1i11il1l11l1ill11l111lI1Il);
-        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, I1l1ii11ili1iiI11iI11IIii1iIiIiIillIl11iI11iI11I11Il1Iii1i1iIlIi1Ii11ii1lli1I1li1ll11lliI11I11Il1I11);
-        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IIl1i1l1i1I1111iII1IIII11IlI1Ii11li1111l1I111i111ii1lilI11lllliii1i11l111lIl11iIil1l11llIIi11I1il1Ii);
-        CHHook0(I1li111iI11I1l111iIi1l1I1IIiiiiI1l1ili1IiII1IIilI1111lII1Iilii1il1iI1l11l1iiiii1lil11ilIIIlIii1l1ii1, IlIi1ilIi1liI1liI1l1l1Il11i11ii1I1IlllI11l11iiil1111I1111ll1iil11l11iiilI1Ii1Ili1Ii1iI11iil11IlliI1l);
+        CHHook0(升头设里我的一地过知数自系再离刚, 小联在离己油当接技装据沟到上察思);
+        CHHook0(升头设里我的一地过知数自系再离刚, 先升目备隔们油个接技装据山系再观);
+        CHHook0(升头设里我的一地过知数自系再离刚, 观一跟我被术是设的我来一地地知一);
+        CHHook0(升头设里我的一地过知数自系再离刚, 通不进升目备隔们油个接技装据身系);
+        CHHook0(升头设里我的一地过知数自系再离刚, 先升目备隔们油个接技装数山系再观);
+        CHHook1(升头设里我的一地过知数自系再离刚, 山大脸我的就一先一头是里让的跟维);
+        CHHook0(升头设里我的一地过知数自系再离刚, 升目设里我的一地过知数自系再观刚);
+        CHHook1(升头设里我的一地过知数自系再离刚, 入术是设的我来一地通不进级还脑);
     }
 }
